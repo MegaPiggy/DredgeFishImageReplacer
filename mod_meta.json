@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/dev/schemas/mod_meta_schema.json",
+  "ModAssembly": "FishImageReplacer.dll",
+  "Author": "MegaPiggy",
+  "Name": "Fish Image Replacer",
+  "ModGUID": "MegaPiggy.FishImageReplacer",
+  "Version": "0.1.0",
+  "MinWinchVersion": "0.6.2",
+  "Entrypoint": "FishImageReplacer.Main/Initialize",
+  "Dependencies": [],
+  "Conflicts": [],
+  "ApplyPatches": false
+}
