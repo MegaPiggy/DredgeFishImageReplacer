@@ -1,10 +1,11 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Sirenix.Utilities;
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 using Winch.Core;
 using Winch.Util;
 
@@ -16,8 +17,10 @@ public static class DefaultConfigGenerator
     {
         var root = new JObject();
 
+        root.Add("$schema", "https://raw.githubusercontent.com/DREDGE-Mods/Winch/dev/schemas/config_schema.json");
+
         var fish = ItemUtil.GetAllFishItemData()
-            .Where(x => x.IsVanilla())
+            .Where(WinchExtensions.IsVanilla)
             .ToList();
 
         var groups = fish
@@ -32,28 +35,35 @@ public static class DefaultConfigGenerator
 
             if (group.Key == Entitlement.NONE)
             {
-                entitlement = "base_game";
+                entitlement = "base";
             }
 
             var key = entitlement
-                .Replace("_", " ")
-                .ToTitleCase()
-                .Replace(" ", "");
+                .Replace("_", "");
 
-            var title = $"entitlement.{entitlement}.name";
-
-            root[$"{MakeSafeKey(key)}Separator"] = new JObject
+            root[$"{key}Separator"] = new JObject
             {
                 ["type"] = "separator",
-                ["title"] = title
+                ["title"] = GetEntitlementTitleKey(group.Key)
             };
 
             foreach (var fishItemData in group.OrderBy(x => x.id))
             {
+                var nameKey = PreferLocalizedString(
+                    fishItemData.itemInsaneTitleKey,
+                    fishItemData.itemNameKey
+                );
+
+                var descriptionKey = PreferLocalizedString(
+                    fishItemData.itemInsaneDescriptionKey,
+                    fishItemData.itemDescriptionKey
+                );
+
                 root[fishItemData.id] = new JObject
                 {
                     ["type"] = "toggle",
-                    ["title"] = $"item.{fishItemData.id}.name",
+                    ["title"] = GetLocalizationReference(nameKey),
+                    ["tooltip"] = GetLocalizationReference(descriptionKey),
                     ["value"] = false
                 };
             }
@@ -69,6 +79,26 @@ public static class DefaultConfigGenerator
         );
     }
 
+    private static LocalizedString PreferLocalizedString(
+        LocalizedString preferred,
+        LocalizedString fallback)
+    {
+        return preferred != null && !preferred.IsEmpty
+            ? preferred
+            : fallback;
+    }
+
+    private static string GetLocalizationReference(LocalizedString localizedString)
+    {
+        var table = LocalizationSettings.StringDatabase
+            .GetTableAsync(localizedString.TableReference)
+            .WaitForCompletion();
+
+        var key = localizedString.TableEntryReference.ResolveKeyName(table.SharedData);
+
+        return $"{table.TableCollectionName}:{key}";
+    }
+
     private static Entitlement GetEntitlementGroup(FishItemData fish)
     {
         if (fish.entitlementsRequired == null ||
@@ -78,6 +108,20 @@ public static class DefaultConfigGenerator
         }
 
         return fish.entitlementsRequired.FirstOrDefault();
+    }
+
+    private static string GetEntitlementTitleKey(Entitlement entitlement)
+    {
+        if (entitlement == Entitlement.NONE)
+            return "tab.tier-0";
+
+        if (entitlement == EntitlementExtra.PALE_REACH)
+            return "label.pale-reach";
+
+        if (entitlement == EntitlementExtra.IRON_RIG)
+            return "label.the-iron-rig";
+
+        return entitlement.GetName();
     }
 
     private static int GetGroupOrder(Entitlement group)
@@ -92,12 +136,5 @@ public static class DefaultConfigGenerator
             return 2;
 
         return 100;
-    }
-
-    private static string MakeSafeKey(string value)
-    {
-        return new string(
-            value.Where(char.IsLetterOrDigit).ToArray()
-        );
     }
 }

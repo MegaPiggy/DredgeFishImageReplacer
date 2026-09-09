@@ -24,11 +24,13 @@
 
   <ItemGroup>
     <PackageReference Include="DredgeGameLibs" Version="1.5.2" />
-    <PackageReference Include="Winch" Version="0.6.2" />
+    <PackageReference Include="HarmonyX" Version="2.10.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="default-config.json">
+    <None Include="default_config.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="mod_meta.json">
@@ -41,5 +43,14 @@
   
   <ItemGroup>
     <Content Include="FishImageReplacer.csproj.user" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Reference Include="Winch">
+      <HintPath>$(DredgePath)\Winch.dll</HintPath>
+    </Reference>
+    <Reference Include="WinchCommon">
+      <HintPath>$(DredgePath)\WinchCommon.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>

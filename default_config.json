@@ -1,0 +1,1395 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/dev/schemas/config_schema.json",
+  "baseSeparator": {
+    "type": "separator",
+    "title": "tab.tier-0"
+  },
+  "anchovy": {
+    "type": "toggle",
+    "title": "Items:item.anchovy.name",
+    "tooltip": "Items:item.anchovy.description",
+    "value": false
+  },
+  "anchovy-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.anchovy-ab-1.name",
+    "tooltip": "Items:item.anchovy-ab-1.description",
+    "value": false
+  },
+  "anglerfish": {
+    "type": "toggle",
+    "title": "Items:item.anglerfish.name",
+    "tooltip": "Items:item.anglerfish.description",
+    "value": false
+  },
+  "anglerfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.anglerfish-ab-1.name",
+    "tooltip": "Items:item.anglerfish-ab-1.description",
+    "value": false
+  },
+  "aurora-jellyfish": {
+    "type": "toggle",
+    "title": "Items:item.aurora-jellyfish.name",
+    "tooltip": "Items:item.aurora-jellyfish.description",
+    "value": false
+  },
+  "aurora-jellyfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.aurora-jellyfish-ab-1.name",
+    "tooltip": "Items:item.aurora-jellyfish-ab-1.description",
+    "value": false
+  },
+  "barracuda": {
+    "type": "toggle",
+    "title": "Items:item.barracuda.name",
+    "tooltip": "Items:item.barracuda.description",
+    "value": false
+  },
+  "barracuda-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.barracuda-ab-1.name",
+    "tooltip": "Items:item.barracuda-ab-1.description",
+    "value": false
+  },
+  "barracuda-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.barracuda-ab-2.name",
+    "tooltip": "Items:item.barracuda-ab-2.description",
+    "value": false
+  },
+  "barreleye": {
+    "type": "toggle",
+    "title": "Items:item.barreleye.name",
+    "tooltip": "Items:item.barreleye.description",
+    "value": false
+  },
+  "barreleye-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.barreleye-ab-1.name",
+    "tooltip": "Items:item.barreleye-ab-1.description",
+    "value": false
+  },
+  "blackfin-tuna": {
+    "type": "toggle",
+    "title": "Items:item.blackfin-tuna.name",
+    "tooltip": "Items:item.blackfin-tuna.description",
+    "value": false
+  },
+  "blackfin-tuna-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.blackfin-tuna-ab-1.name",
+    "tooltip": "Items:item.blackfin-tuna-ab-1.description",
+    "value": false
+  },
+  "black-grouper": {
+    "type": "toggle",
+    "title": "Items:item.black-grouper.name",
+    "tooltip": "Items:item.black-grouper.description",
+    "value": false
+  },
+  "black-grouper-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.black-grouper-ab-1.name",
+    "tooltip": "Items:item.black-grouper-ab-1.description",
+    "value": false
+  },
+  "black-grouper-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.black-grouper-ab-2.name",
+    "tooltip": "Items:item.black-grouper-ab-2.description",
+    "value": false
+  },
+  "blackmouth-salmon": {
+    "type": "toggle",
+    "title": "Items:item.blackmouth-salmon.name",
+    "tooltip": "Items:item.blackmouth-salmon.description",
+    "value": false
+  },
+  "blackmouth-salmon-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.blackmouth-salmon-ab-1.name",
+    "tooltip": "Items:item.blackmouth-salmon-ab-1.description",
+    "value": false
+  },
+  "black-sea-bass": {
+    "type": "toggle",
+    "title": "Items:item.black-sea-bass.name",
+    "tooltip": "Items:item.black-sea-bass.description",
+    "value": false
+  },
+  "black-sea-bass-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.black-sea-bass-ab-1.name",
+    "tooltip": "Items:item.black-sea-bass-ab-1.description",
+    "value": false
+  },
+  "blacktip-reef-shark": {
+    "type": "toggle",
+    "title": "Items:item.blacktip-reef-shark.name",
+    "tooltip": "Items:item.blacktip-reef-shark.description",
+    "value": false
+  },
+  "blacktip-reef-shark-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.blacktip-reef-shark-ab-1.name",
+    "tooltip": "Items:item.blacktip-reef-shark-ab-1.description",
+    "value": false
+  },
+  "blue-crab": {
+    "type": "toggle",
+    "title": "Items:item.blue-crab.name",
+    "tooltip": "Items:item.blue-crab.description",
+    "value": false
+  },
+  "blue-crab-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.blue-crab-ab-1.name",
+    "tooltip": "Items:item.blue-crab-ab-1.description",
+    "value": false
+  },
+  "bronze-whaler": {
+    "type": "toggle",
+    "title": "Items:item.bronze-whaler.name",
+    "tooltip": "Items:item.bronze-whaler.description",
+    "value": false
+  },
+  "bronze-whaler-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.bronze-whaler-ab-1.name",
+    "tooltip": "Items:item.bronze-whaler-ab-1.description",
+    "value": false
+  },
+  "catfish": {
+    "type": "toggle",
+    "title": "Items:item.catfish.name",
+    "tooltip": "Items:item.catfish.description",
+    "value": false
+  },
+  "catfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.catfish-ab-1.name",
+    "tooltip": "Items:item.catfish-ab-1.description",
+    "value": false
+  },
+  "cod": {
+    "type": "toggle",
+    "title": "Items:item.cod.name",
+    "tooltip": "Items:item.cod.description",
+    "value": false
+  },
+  "cod-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.cod-ab-1.name",
+    "tooltip": "Items:item.cod-ab-1.description",
+    "value": false
+  },
+  "cod-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.cod-ab-2.name",
+    "tooltip": "Items:item.cod-ab-2.description",
+    "value": false
+  },
+  "cod-ab-3": {
+    "type": "toggle",
+    "title": "Items:item.cod-ab-3.name",
+    "tooltip": "Items:item.cod-ab-3.description",
+    "value": false
+  },
+  "coelacanth": {
+    "type": "toggle",
+    "title": "Items:item.coelacanth.name",
+    "tooltip": "Items:item.coelacanth.description",
+    "value": false
+  },
+  "conger-eel": {
+    "type": "toggle",
+    "title": "Items:item.conger-eel.name",
+    "tooltip": "Items:item.conger-eel.description",
+    "value": false
+  },
+  "conger-eel-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.conger-eel-ab-1.name",
+    "tooltip": "Items:item.conger-eel-ab-1.description",
+    "value": false
+  },
+  "coral-grouper": {
+    "type": "toggle",
+    "title": "Items:item.coral-grouper.name",
+    "tooltip": "Items:item.coral-grouper.description",
+    "value": false
+  },
+  "coral-grouper-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.coral-grouper-ab-1.name",
+    "tooltip": "Items:item.coral-grouper-ab-1.description",
+    "value": false
+  },
+  "crab": {
+    "type": "toggle",
+    "title": "Items:item.crab.name",
+    "tooltip": "Items:item.crab.description",
+    "value": false
+  },
+  "crab-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.crab-ab-1.name",
+    "tooltip": "Items:item.crab-ab-1.description",
+    "value": false
+  },
+  "crown-of-thorns": {
+    "type": "toggle",
+    "title": "Items:item.crown-of-thorns.name",
+    "tooltip": "Items:item.crown-of-thorns.description",
+    "value": false
+  },
+  "crown-of-thorns-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.crown-of-thorns-ab-1.name",
+    "tooltip": "Items:item.crown-of-thorns-ab-1.description",
+    "value": false
+  },
+  "cusk-eel": {
+    "type": "toggle",
+    "title": "Items:item.cusk-eel.name",
+    "tooltip": "Items:item.cusk-eel.description",
+    "value": false
+  },
+  "cusk-eel-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.cusk-eel-ab-1.name",
+    "tooltip": "Items:item.cusk-eel-ab-1.description",
+    "value": false
+  },
+  "decorator-crab": {
+    "type": "toggle",
+    "title": "Items:item.decorator-crab.name",
+    "tooltip": "Items:item.decorator-crab.description",
+    "value": false
+  },
+  "decorator-crab-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.decorator-crab-ab-1.name",
+    "tooltip": "Items:item.decorator-crab-ab-1.description",
+    "value": false
+  },
+  "devil-ray": {
+    "type": "toggle",
+    "title": "Items:item.devil-ray.name",
+    "tooltip": "Items:item.devil-ray.description",
+    "value": false
+  },
+  "devil-ray-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.devil-ray-ab-1.name",
+    "tooltip": "Items:item.devil-ray-ab-1.description",
+    "value": false
+  },
+  "eel": {
+    "type": "toggle",
+    "title": "Items:item.eel.name",
+    "tooltip": "Items:item.eel.description",
+    "value": false
+  },
+  "eel-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.eel-ab-1.name",
+    "tooltip": "Items:item.eel-ab-1.description",
+    "value": false
+  },
+  "eel-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.eel-ab-2.name",
+    "tooltip": "Items:item.eel-ab-2.description",
+    "value": false
+  },
+  "fangtooth": {
+    "type": "toggle",
+    "title": "Items:item.fangtooth.name",
+    "tooltip": "Items:item.fangtooth.description",
+    "value": false
+  },
+  "fangtooth-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.fangtooth-ab-1.name",
+    "tooltip": "Items:item.fangtooth-ab-1.description",
+    "value": false
+  },
+  "fiddler-crab": {
+    "type": "toggle",
+    "title": "Items:item.fiddler-crab.name",
+    "tooltip": "Items:item.fiddler-crab.description",
+    "value": false
+  },
+  "fiddler-crab-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.fiddler-crab-ab-1.name",
+    "tooltip": "Items:item.fiddler-crab-ab-1.description",
+    "value": false
+  },
+  "firefly-squid": {
+    "type": "toggle",
+    "title": "Items:item.firefly-squid.name",
+    "tooltip": "Items:item.firefly-squid.description",
+    "value": false
+  },
+  "firefly-squid-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.firefly-squid-ab-1.name",
+    "tooltip": "Items:item.firefly-squid-ab-1.description",
+    "value": false
+  },
+  "flounder": {
+    "type": "toggle",
+    "title": "Items:item.flounder.name",
+    "tooltip": "Items:item.flounder.description",
+    "value": false
+  },
+  "flounder-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.flounder-ab-1.name",
+    "tooltip": "Items:item.flounder-ab-1.description",
+    "value": false
+  },
+  "flounder-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.flounder-ab-2.name",
+    "tooltip": "Items:item.flounder-ab-2.description",
+    "value": false
+  },
+  "frilled-shark": {
+    "type": "toggle",
+    "title": "Items:item.frilled-shark.name",
+    "tooltip": "Items:item.frilled-shark.description",
+    "value": false
+  },
+  "frilled-shark-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.frilled-shark-ab-1.name",
+    "tooltip": "Items:item.frilled-shark-ab-1.description",
+    "value": false
+  },
+  "gar": {
+    "type": "toggle",
+    "title": "Items:item.gar.name",
+    "tooltip": "Items:item.gar.description",
+    "value": false
+  },
+  "gar-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.gar-ab-1.name",
+    "tooltip": "Items:item.gar-ab-1.description",
+    "value": false
+  },
+  "gar-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.gar-ab-2.name",
+    "tooltip": "Items:item.gar-ab-2.description",
+    "value": false
+  },
+  "ghost-shark": {
+    "type": "toggle",
+    "title": "Items:item.ghost-shark.name",
+    "tooltip": "Items:item.ghost-shark.description",
+    "value": false
+  },
+  "ghost-shark-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.ghost-shark-ab-1.name",
+    "tooltip": "Items:item.ghost-shark-ab-1.description",
+    "value": false
+  },
+  "giant-amphipod": {
+    "type": "toggle",
+    "title": "Items:item.giant-amphipod.name",
+    "tooltip": "Items:item.giant-amphipod.description",
+    "value": false
+  },
+  "giant-amphipod-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.giant-amphipod-ab-1.name",
+    "tooltip": "Items:item.giant-amphipod-ab-1.description",
+    "value": false
+  },
+  "giant-mud-crab": {
+    "type": "toggle",
+    "title": "Items:item.giant-mud-crab.name",
+    "tooltip": "Items:item.giant-mud-crab.description",
+    "value": false
+  },
+  "giant-mud-crab-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.giant-mud-crab-ab-1.name",
+    "tooltip": "Items:item.giant-mud-crab-ab-1.description",
+    "value": false
+  },
+  "glowing-octopus": {
+    "type": "toggle",
+    "title": "Items:item.glowing-octopus.name",
+    "tooltip": "Items:item.glowing-octopus.description",
+    "value": false
+  },
+  "glowing-octopus-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.glowing-octopus-ab-1.name",
+    "tooltip": "Items:item.glowing-octopus-ab-1.description",
+    "value": false
+  },
+  "goliath-tigerfish": {
+    "type": "toggle",
+    "title": "Items:item.goliath-tigerfish.name",
+    "tooltip": "Items:item.goliath-tigerfish.description",
+    "value": false
+  },
+  "grey-mullet": {
+    "type": "toggle",
+    "title": "Items:item.grey-mullet.name",
+    "tooltip": "Items:item.grey-mullet.description",
+    "value": false
+  },
+  "grey-mullet-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.grey-mullet-ab-1.name",
+    "tooltip": "Items:item.grey-mullet-ab-1.description",
+    "value": false
+  },
+  "grey-mullet-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.grey-mullet-ab-2.name",
+    "tooltip": "Items:item.grey-mullet-ab-2.description",
+    "value": false
+  },
+  "gulper-eel": {
+    "type": "toggle",
+    "title": "Items:item.gulper-eel.name",
+    "tooltip": "Items:item.gulper-eel.description",
+    "value": false
+  },
+  "hammerhead-shark": {
+    "type": "toggle",
+    "title": "Items:item.hammerhead-shark.name",
+    "tooltip": "Items:item.hammerhead-shark.description",
+    "value": false
+  },
+  "hammerhead-shark-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.hammerhead-shark-ab-1.name",
+    "tooltip": "Items:item.hammerhead-shark-ab-1.description",
+    "value": false
+  },
+  "horseshoe-crab": {
+    "type": "toggle",
+    "title": "Items:item.horseshoe-crab.name",
+    "tooltip": "Items:item.horseshoe-crab.description",
+    "value": false
+  },
+  "horseshoe-crab-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.horseshoe-crab-ab-1.name",
+    "tooltip": "Items:item.horseshoe-crab-ab-1.description",
+    "value": false
+  },
+  "longfin-eel": {
+    "type": "toggle",
+    "title": "Items:item.longfin-eel.name",
+    "tooltip": "Items:item.longfin-eel.description",
+    "value": false
+  },
+  "longfin-eel-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.longfin-eel-ab-1.name",
+    "tooltip": "Items:item.longfin-eel-ab-1.description",
+    "value": false
+  },
+  "mackerel": {
+    "type": "toggle",
+    "title": "Items:item.mackerel.name",
+    "tooltip": "Items:item.mackerel.description",
+    "value": false
+  },
+  "mackerel-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.mackerel-ab-1.name",
+    "tooltip": "Items:item.mackerel-ab-1.description",
+    "value": false
+  },
+  "mackerel-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.mackerel-ab-2.name",
+    "tooltip": "Items:item.mackerel-ab-2.description",
+    "value": false
+  },
+  "mackerel-ab-3": {
+    "type": "toggle",
+    "title": "Items:item.mackerel-ab-3.name",
+    "tooltip": "Items:item.mackerel-ab-3.description",
+    "value": false
+  },
+  "moonfish": {
+    "type": "toggle",
+    "title": "Items:item.moonfish.name",
+    "tooltip": "Items:item.moonfish.description",
+    "value": false
+  },
+  "moonfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.moonfish-ab-1.name",
+    "tooltip": "Items:item.moonfish-ab-1.description",
+    "value": false
+  },
+  "moonfish-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.moonfish-ab-2.name",
+    "tooltip": "Items:item.moonfish-ab-2.description",
+    "value": false
+  },
+  "oarfish": {
+    "type": "toggle",
+    "title": "Items:item.oarfish.name",
+    "tooltip": "Items:item.oarfish.description",
+    "value": false
+  },
+  "oceanic-perch": {
+    "type": "toggle",
+    "title": "Items:item.oceanic-perch.name",
+    "tooltip": "Items:item.oceanic-perch.description",
+    "value": false
+  },
+  "oceanic-perch-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.oceanic-perch-ab-1.name",
+    "tooltip": "Items:item.oceanic-perch-ab-1.description",
+    "value": false
+  },
+  "pale-skate": {
+    "type": "toggle",
+    "title": "Items:item.pale-skate.name",
+    "tooltip": "Items:item.pale-skate.description",
+    "value": false
+  },
+  "pale-skate-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.pale-skate-ab-1.name",
+    "tooltip": "Items:item.pale-skate-ab-1.description",
+    "value": false
+  },
+  "rattail": {
+    "type": "toggle",
+    "title": "Items:item.rattail.name",
+    "tooltip": "Items:item.rattail.description",
+    "value": false
+  },
+  "rattail-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.rattail-ab-1.name",
+    "tooltip": "Items:item.rattail-ab-1.description",
+    "value": false
+  },
+  "red-snapper": {
+    "type": "toggle",
+    "title": "Items:item.red-snapper.name",
+    "tooltip": "Items:item.red-snapper.description",
+    "value": false
+  },
+  "red-snapper-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.red-snapper-ab-1.name",
+    "tooltip": "Items:item.red-snapper-ab-1.description",
+    "value": false
+  },
+  "red-snapper-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.red-snapper-ab-2.name",
+    "tooltip": "Items:item.red-snapper-ab-2.description",
+    "value": false
+  },
+  "rock-crab": {
+    "type": "toggle",
+    "title": "Items:item.rock-crab.name",
+    "tooltip": "Items:item.rock-crab.description",
+    "value": false
+  },
+  "rock-crab-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.rock-crab-ab-1.name",
+    "tooltip": "Items:item.rock-crab-ab-1.description",
+    "value": false
+  },
+  "sailfish": {
+    "type": "toggle",
+    "title": "Items:item.sailfish.name",
+    "tooltip": "Items:item.sailfish.description",
+    "value": false
+  },
+  "sailfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.sailfish-ab-1.name",
+    "tooltip": "Items:item.sailfish-ab-1.description",
+    "value": false
+  },
+  "sailfish-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.sailfish-ab-2.name",
+    "tooltip": "Items:item.sailfish-ab-2.description",
+    "value": false
+  },
+  "scarlet-prawn": {
+    "type": "toggle",
+    "title": "Items:item.scarlet-prawn.name",
+    "tooltip": "Items:item.scarlet-prawn.description",
+    "value": false
+  },
+  "scarlet-prawn-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.scarlet-prawn-ab-1.name",
+    "tooltip": "Items:item.scarlet-prawn-ab-1.description",
+    "value": false
+  },
+  "searobin": {
+    "type": "toggle",
+    "title": "Items:item.searobin.name",
+    "tooltip": "Items:item.searobin.description",
+    "value": false
+  },
+  "searobin-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.searobin-ab-1.name",
+    "tooltip": "Items:item.searobin-ab-1.description",
+    "value": false
+  },
+  "sergeant-fish": {
+    "type": "toggle",
+    "title": "Items:item.sergeant-fish.name",
+    "tooltip": "Items:item.sergeant-fish.description",
+    "value": false
+  },
+  "sergeant-fish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.sergeant-fish-ab-1.name",
+    "tooltip": "Items:item.sergeant-fish-ab-1.description",
+    "value": false
+  },
+  "snailfish": {
+    "type": "toggle",
+    "title": "Items:item.snailfish.name",
+    "tooltip": "Items:item.snailfish.description",
+    "value": false
+  },
+  "snailfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.snailfish-ab-1.name",
+    "tooltip": "Items:item.snailfish-ab-1.description",
+    "value": false
+  },
+  "snailfish-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.snailfish-ab-2.name",
+    "tooltip": "Items:item.snailfish-ab-2.description",
+    "value": false
+  },
+  "snake-mackerel": {
+    "type": "toggle",
+    "title": "Items:item.snake-mackerel.name",
+    "tooltip": "Items:item.snake-mackerel.description",
+    "value": false
+  },
+  "snake-mackerel-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.snake-mackerel-ab-1.name",
+    "tooltip": "Items:item.snake-mackerel-ab-1.description",
+    "value": false
+  },
+  "snake-mackerel-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.snake-mackerel-ab-2.name",
+    "tooltip": "Items:item.snake-mackerel-ab-2.description",
+    "value": false
+  },
+  "spider-crab": {
+    "type": "toggle",
+    "title": "Items:item.spider-crab.name",
+    "tooltip": "Items:item.spider-crab.description",
+    "value": false
+  },
+  "spider-crab-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.spider-crab-ab-1.name",
+    "tooltip": "Items:item.spider-crab-ab-1.description",
+    "value": false
+  },
+  "spiny-lobster": {
+    "type": "toggle",
+    "title": "Items:item.spiny-lobster.name",
+    "tooltip": "Items:item.spiny-lobster.description",
+    "value": false
+  },
+  "spiny-lobster-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.spiny-lobster-ab-1.name",
+    "tooltip": "Items:item.spiny-lobster-ab-1.description",
+    "value": false
+  },
+  "squat-lobster": {
+    "type": "toggle",
+    "title": "Items:item.squat-lobster.name",
+    "tooltip": "Items:item.squat-lobster.description",
+    "value": false
+  },
+  "squat-lobster-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.squat-lobster-ab-1.name",
+    "tooltip": "Items:item.squat-lobster-ab-1.description",
+    "value": false
+  },
+  "squid": {
+    "type": "toggle",
+    "title": "Items:item.squid.name",
+    "tooltip": "Items:item.squid.description",
+    "value": false
+  },
+  "squid-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.squid-ab-1.name",
+    "tooltip": "Items:item.squid-ab-1.description",
+    "value": false
+  },
+  "squid-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.squid-ab-2.name",
+    "tooltip": "Items:item.squid-ab-2.description",
+    "value": false
+  },
+  "stingray": {
+    "type": "toggle",
+    "title": "Items:item.stingray.name",
+    "tooltip": "Items:item.stingray.description",
+    "value": false
+  },
+  "stingray-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.stingray-ab-1.name",
+    "tooltip": "Items:item.stingray-ab-1.description",
+    "value": false
+  },
+  "stonefish": {
+    "type": "toggle",
+    "title": "Items:item.stonefish.name",
+    "tooltip": "Items:item.stonefish.description",
+    "value": false
+  },
+  "stonefish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.stonefish-ab-1.name",
+    "tooltip": "Items:item.stonefish-ab-1.description",
+    "value": false
+  },
+  "stonefish-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.stonefish-ab-2.name",
+    "tooltip": "Items:item.stonefish-ab-2.description",
+    "value": false
+  },
+  "stoplight-loosejaw": {
+    "type": "toggle",
+    "title": "Items:item.loosejaw.name",
+    "tooltip": "Items:item.loosejaw.description",
+    "value": false
+  },
+  "stoplight-loosejaw-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.loosejaw-ab-1.name",
+    "tooltip": "Items:item.loosejaw-ab-1.description",
+    "value": false
+  },
+  "sturgeon": {
+    "type": "toggle",
+    "title": "Items:item.sturgeon.name",
+    "tooltip": "Items:item.sturgeon.description",
+    "value": false
+  },
+  "sturgeon-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.sturgeon-ab-1.name",
+    "tooltip": "Items:item.sturgeon-ab-1.description",
+    "value": false
+  },
+  "sunfish": {
+    "type": "toggle",
+    "title": "Items:item.sunfish.name",
+    "tooltip": "Items:item.sunfish.description",
+    "value": false
+  },
+  "sunfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.sunfish-ab-1.name",
+    "tooltip": "Items:item.sunfish-ab-1.description",
+    "value": false
+  },
+  "sunfish-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.sunfish-ab-2.name",
+    "tooltip": "Items:item.sunfish-ab-2.description",
+    "value": false
+  },
+  "tarpon": {
+    "type": "toggle",
+    "title": "Items:item.tarpon.name",
+    "tooltip": "Items:item.tarpon.description",
+    "value": false
+  },
+  "tarpon-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.tarpon-ab-1.name",
+    "tooltip": "Items:item.tarpon-ab-1.description",
+    "value": false
+  },
+  "tiger-mackerel": {
+    "type": "toggle",
+    "title": "Items:item.tiger-mackerel.name",
+    "tooltip": "Items:item.tiger-mackerel.description",
+    "value": false
+  },
+  "tiger-mackerel-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.tiger-mackerel-ab-1.name",
+    "tooltip": "Items:item.tiger-mackerel-ab-1.description",
+    "value": false
+  },
+  "tiger-mackerel-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.tiger-mackerel-ab-2.name",
+    "tooltip": "Items:item.tiger-mackerel-ab-2.description",
+    "value": false
+  },
+  "viperfish": {
+    "type": "toggle",
+    "title": "Items:item.viperfish.name",
+    "tooltip": "Items:item.viperfish.description",
+    "value": false
+  },
+  "viperfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.viperfish-ab-1.name",
+    "tooltip": "Items:item.viperfish-ab-1.description",
+    "value": false
+  },
+  "viperfish-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.viperfish-ab-2.name",
+    "tooltip": "Items:item.viperfish-ab-2.description",
+    "value": false
+  },
+  "volcano-snail": {
+    "type": "toggle",
+    "title": "Items:item.volcano-snail.name",
+    "tooltip": "Items:item.volcano-snail.description",
+    "value": false
+  },
+  "volcano-snail-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.volcano-snail-ab-1.name",
+    "tooltip": "Items:item.volcano-snail-ab-1.description",
+    "value": false
+  },
+  "wreckfish": {
+    "type": "toggle",
+    "title": "Items:item.wreckfish.name",
+    "tooltip": "Items:item.wreckfish.description",
+    "value": false
+  },
+  "wreckfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.wreckfish-ab-1.name",
+    "tooltip": "Items:item.wreckfish-ab-1.description",
+    "value": false
+  },
+  "wreckfish-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.wreckfish-ab-2.name",
+    "tooltip": "Items:item.wreckfish-ab-2.description",
+    "value": false
+  },
+  "dlc1Separator": {
+    "type": "separator",
+    "title": "label.pale-reach"
+  },
+  "char": {
+    "type": "toggle",
+    "title": "Items:item.char.name",
+    "tooltip": "Items:item.char.description",
+    "value": false
+  },
+  "char-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.char-ab-1.name",
+    "tooltip": "Items:item.char-ab-1.description",
+    "value": false
+  },
+  "colossal-squid": {
+    "type": "toggle",
+    "title": "Items:item.colossal-squid.name",
+    "tooltip": "Items:item.colossal-squid.description",
+    "value": false
+  },
+  "colossal-squid-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.colossal-squid-ab-1.name",
+    "tooltip": "Items:item.colossal-squid-ab-1.description",
+    "value": false
+  },
+  "goblin-shark": {
+    "type": "toggle",
+    "title": "Items:item.goblin-shark.name",
+    "tooltip": "Items:item.goblin-shark.description",
+    "value": false
+  },
+  "goblin-shark-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.goblin-shark-ab-1.name",
+    "tooltip": "Items:item.goblin-shark-ab-1.description",
+    "value": false
+  },
+  "icefish": {
+    "type": "toggle",
+    "title": "Items:item.icefish.name",
+    "tooltip": "Items:item.icefish.description",
+    "value": false
+  },
+  "icefish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.icefish-ab-1.name",
+    "tooltip": "Items:item.icefish-ab-1.description",
+    "value": false
+  },
+  "icefish-ab-2": {
+    "type": "toggle",
+    "title": "Items:item.icefish-ab-2.name",
+    "tooltip": "Items:item.icefish-ab-2.description",
+    "value": false
+  },
+  "icefish-ab-3": {
+    "type": "toggle",
+    "title": "Items:item.icefish-ab-3.name",
+    "tooltip": "Items:item.icefish-ab-3.description",
+    "value": false
+  },
+  "king-crab": {
+    "type": "toggle",
+    "title": "Items:item.king-crab.name",
+    "tooltip": "Items:item.king-crab.description",
+    "value": false
+  },
+  "king-crab-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.king-crab-ab-1.name",
+    "tooltip": "Items:item.king-crab-ab-1.description",
+    "value": false
+  },
+  "lizardfish": {
+    "type": "toggle",
+    "title": "Items:item.lizardfish.name",
+    "tooltip": "Items:item.lizardfish.description",
+    "value": false
+  },
+  "lizardfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.lizardfish-ab-1.name",
+    "tooltip": "Items:item.lizardfish-ab-1.description",
+    "value": false
+  },
+  "sea-stars": {
+    "type": "toggle",
+    "title": "Items:item.sea-stars.name",
+    "tooltip": "Items:item.sea-stars.description",
+    "value": false
+  },
+  "sea-stars-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.sea-stars-ab-1.name",
+    "tooltip": "Items:item.sea-stars-ab-1.description",
+    "value": false
+  },
+  "sleeper-shark": {
+    "type": "toggle",
+    "title": "Items:item.sleeper-shark.name",
+    "tooltip": "Items:item.sleeper-shark.description",
+    "value": false
+  },
+  "sleeper-shark-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.sleeper-shark-ab-1.name",
+    "tooltip": "Items:item.sleeper-shark-ab-1.description",
+    "value": false
+  },
+  "stargazer": {
+    "type": "toggle",
+    "title": "Items:item.stargazer.name",
+    "tooltip": "Items:item.stargazer.description",
+    "value": false
+  },
+  "stargazer-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.stargazer-ab-1.name",
+    "tooltip": "Items:item.stargazer-ab-1.description",
+    "value": false
+  },
+  "toothfish": {
+    "type": "toggle",
+    "title": "Items:item.toothfish.name",
+    "tooltip": "Items:item.toothfish.description",
+    "value": false
+  },
+  "toothfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.toothfish-ab-1.name",
+    "tooltip": "Items:item.toothfish-ab-1.description",
+    "value": false
+  },
+  "wolffish": {
+    "type": "toggle",
+    "title": "Items:item.wolffish.name",
+    "tooltip": "Items:item.wolffish.description",
+    "value": false
+  },
+  "wolffish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.wolffish-ab-1.name",
+    "tooltip": "Items:item.wolffish-ab-1.description",
+    "value": false
+  },
+  "dlc2Separator": {
+    "type": "separator",
+    "title": "label.the-iron-rig"
+  },
+  "abyssal-gar": {
+    "type": "toggle",
+    "title": "Items:item.abyssal-gar.name",
+    "tooltip": "Items:item.abyssal-gar.description",
+    "value": false
+  },
+  "abyssal-gar-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.abyssal-gar-ab-1.name",
+    "tooltip": "Items:item.abyssal-gar-ab-1.description",
+    "value": false
+  },
+  "arapaima": {
+    "type": "toggle",
+    "title": "Items:item.arapaima.name",
+    "tooltip": "Items:item.arapaima.description",
+    "value": false
+  },
+  "arapaima-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.arapaima-ab-1.name",
+    "tooltip": "Items:item.arapaima-ab-1.description",
+    "value": false
+  },
+  "boreaspis": {
+    "type": "toggle",
+    "title": "Items:item.boreaspis.name",
+    "tooltip": "Items:item.boreaspis.description",
+    "value": false
+  },
+  "boreaspis-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.boreaspis-ab-1.name",
+    "tooltip": "Items:item.boreaspis-ab-1.description",
+    "value": false
+  },
+  "coelacanth-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.coelacanth-ab-1.name",
+    "tooltip": "Items:item.coelacanth-ab-1.description",
+    "value": false
+  },
+  "deep-form-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.deep-form-ab-1.name",
+    "tooltip": "Items:item.deep-form-ab-1.description",
+    "value": false
+  },
+  "dunkleosteus": {
+    "type": "toggle",
+    "title": "Items:item.dunkleosteus.name",
+    "tooltip": "Items:item.dunkleosteus.description",
+    "value": false
+  },
+  "dunkleosteus-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.dunkleosteus-ab-1.name",
+    "tooltip": "Items:item.dunkleosteus-ab-1.description",
+    "value": false
+  },
+  "eagle-shark": {
+    "type": "toggle",
+    "title": "Items:item.eagle-shark.name",
+    "tooltip": "Items:item.eagle-shark.description",
+    "value": false
+  },
+  "eagle-shark-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.eagle-shark-ab-1.name",
+    "tooltip": "Items:item.eagle-shark-ab-1.description",
+    "value": false
+  },
+  "giant-dragonfish": {
+    "type": "toggle",
+    "title": "Items:item.giant-dragonfish.name",
+    "tooltip": "Items:item.giant-dragonfish.description",
+    "value": false
+  },
+  "giant-dragonfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.giant-dragonfish-ab-1.name",
+    "tooltip": "Items:item.giant-dragonfish-ab-1.description",
+    "value": false
+  },
+  "goliath-tigerfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.goliath-tigerfish-ab-1.name",
+    "tooltip": "Items:item.goliath-tigerfish-ab-1.description",
+    "value": false
+  },
+  "gulper-eel-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.gulper-eel-ab-1.name",
+    "tooltip": "Items:item.gulper-eel-ab-1.description",
+    "value": false
+  },
+  "kerygmachela": {
+    "type": "toggle",
+    "title": "Items:item.kerygmachela.name",
+    "tooltip": "Items:item.kerygmachela.description",
+    "value": false
+  },
+  "kerygmachela-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.kerygmachela-ab-1.name",
+    "tooltip": "Items:item.kerygmachela-ab-1.description",
+    "value": false
+  },
+  "lancetfish": {
+    "type": "toggle",
+    "title": "Items:item.lancetfish.name",
+    "tooltip": "Items:item.lancetfish.description",
+    "value": false
+  },
+  "lancetfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.lancetfish-ab-1.name",
+    "tooltip": "Items:item.lancetfish-ab-1.description",
+    "value": false
+  },
+  "mahi-mahi": {
+    "type": "toggle",
+    "title": "Items:item.mahi-mahi.name",
+    "tooltip": "Items:item.mahi-mahi.description",
+    "value": false
+  },
+  "mahi-mahi-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.mahi-mahi-ab-1.name",
+    "tooltip": "Items:item.mahi-mahi-ab-1.description",
+    "value": false
+  },
+  "nautilus": {
+    "type": "toggle",
+    "title": "Items:item.nautilus.name",
+    "tooltip": "Items:item.nautilus.description",
+    "value": false
+  },
+  "nautilus-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.nautilus-ab-1.name",
+    "tooltip": "Items:item.nautilus-ab-1.description",
+    "value": false
+  },
+  "nipponites": {
+    "type": "toggle",
+    "title": "Items:item.nipponites.name",
+    "tooltip": "Items:item.nipponites.description",
+    "value": false
+  },
+  "nipponites-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.nipponites-ab-1.name",
+    "tooltip": "Items:item.nipponites-ab-1.description",
+    "value": false
+  },
+  "oarfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.oarfish-ab-1.name",
+    "tooltip": "Items:item.oarfish-ab-1.description",
+    "value": false
+  },
+  "opabinia": {
+    "type": "toggle",
+    "title": "Items:item.opabinia.name",
+    "tooltip": "Items:item.opabinia.description",
+    "value": false
+  },
+  "opabinia-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.opabinia-ab-1.name",
+    "tooltip": "Items:item.opabinia-ab-1.description",
+    "value": false
+  },
+  "osteostracan": {
+    "type": "toggle",
+    "title": "Items:item.osteostracan.name",
+    "tooltip": "Items:item.osteostracan.description",
+    "value": false
+  },
+  "osteostracan-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.osteostracan-ab-1.name",
+    "tooltip": "Items:item.osteostracan-ab-1.description",
+    "value": false
+  },
+  "paddlefish": {
+    "type": "toggle",
+    "title": "Items:item.paddlefish.name",
+    "tooltip": "Items:item.paddlefish.description",
+    "value": false
+  },
+  "paddlefish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.paddlefish-ab-1.name",
+    "tooltip": "Items:item.paddlefish-ab-1.description",
+    "value": false
+  },
+  "sawfish": {
+    "type": "toggle",
+    "title": "Items:item.sawfish.name",
+    "tooltip": "Items:item.sawfish.description",
+    "value": false
+  },
+  "sawfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.sawfish-ab-1.name",
+    "tooltip": "Items:item.sawfish-ab-1.description",
+    "value": false
+  },
+  "sea-cucumber": {
+    "type": "toggle",
+    "title": "Items:item.sea-cucumber.name",
+    "tooltip": "Items:item.sea-cucumber.description",
+    "value": false
+  },
+  "sea-cucumber-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.sea-cucumber-ab-1.name",
+    "tooltip": "Items:item.sea-cucumber-ab-1.description",
+    "value": false
+  },
+  "sea-scorpion": {
+    "type": "toggle",
+    "title": "Items:item.sea-scorpion.name",
+    "tooltip": "Items:item.sea-scorpion.description",
+    "value": false
+  },
+  "sea-scorpion-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.sea-scorpion-ab-1.name",
+    "tooltip": "Items:item.sea-scorpion-ab-1.description",
+    "value": false
+  },
+  "sea-slug": {
+    "type": "toggle",
+    "title": "Items:item.sea-slug.name",
+    "tooltip": "Items:item.sea-slug.description",
+    "value": false
+  },
+  "sea-slug-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.sea-slug-ab-1.name",
+    "tooltip": "Items:item.sea-slug-ab-1.description",
+    "value": false
+  },
+  "sollasina": {
+    "type": "toggle",
+    "title": "Items:item.sollasina.name",
+    "tooltip": "Items:item.sollasina.description",
+    "value": false
+  },
+  "sollasina-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.sollasina-ab-1.name",
+    "tooltip": "Items:item.sollasina-ab-1.description",
+    "value": false
+  },
+  "swordfish": {
+    "type": "toggle",
+    "title": "Items:item.swordfish.name",
+    "tooltip": "Items:item.swordfish.description",
+    "value": false
+  },
+  "swordfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.swordfish-ab-1.name",
+    "tooltip": "Items:item.swordfish-ab-1.description",
+    "value": false
+  },
+  "trilobite": {
+    "type": "toggle",
+    "title": "Items:item.trilobite.name",
+    "tooltip": "Items:item.trilobite.description",
+    "value": false
+  },
+  "trilobite-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.trilobite-ab-1.name",
+    "tooltip": "Items:item.trilobite-ab-1.description",
+    "value": false
+  },
+  "tripod-spiderfish": {
+    "type": "toggle",
+    "title": "Items:item.tripod-spiderfish.name",
+    "tooltip": "Items:item.tripod-spiderfish.description",
+    "value": false
+  },
+  "tripod-spiderfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.tripod-spiderfish-ab-1.name",
+    "tooltip": "Items:item.tripod-spiderfish-ab-1.description",
+    "value": false
+  },
+  "tullimonstrum": {
+    "type": "toggle",
+    "title": "Items:item.tullimonstrum.name",
+    "tooltip": "Items:item.tullimonstrum.description",
+    "value": false
+  },
+  "tullimonstrum-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.tullimonstrum-ab-1.name",
+    "tooltip": "Items:item.tullimonstrum-ab-1.description",
+    "value": false
+  },
+  "vetulicolia": {
+    "type": "toggle",
+    "title": "Items:item.vetulicolia.name",
+    "tooltip": "Items:item.vetulicolia.description",
+    "value": false
+  },
+  "vetulicolia-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.vetulicolia-ab-1.name",
+    "tooltip": "Items:item.vetulicolia-ab-1.description",
+    "value": false
+  },
+  "xiphactinus": {
+    "type": "toggle",
+    "title": "Items:item.xiphactinus.name",
+    "tooltip": "Items:item.xiphactinus.description",
+    "value": false
+  },
+  "xiphactinus-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.xiphactinus-ab-1.name",
+    "tooltip": "Items:item.xiphactinus-ab-1.description",
+    "value": false
+  }
+}

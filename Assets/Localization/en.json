@@ -1,2 +1,14 @@
 {
+  "megapiggy.fishimagereplacer.config.preset.none": "None",
+  "megapiggy.fishimagereplacer.config.preset.all": "All",
+  "megapiggy.fishimagereplacer.config.preset.aberrations": "Aberrations",
+  "megapiggy.fishimagereplacer.config.preset.sharks": "Sharks",
+  "megapiggy.fishimagereplacer.config.preset.eels": "Eels",
+  "megapiggy.fishimagereplacer.config.preset.crustaceansandarthropods": "Crustaceans & Arthropods",
+  "megapiggy.fishimagereplacer.config.preset.deepsea": "Deep-Sea Creatures",
+  "megapiggy.fishimagereplacer.config.preset.prehistoric": "Prehistoric Creatures",
+  "megapiggy.fishimagereplacer.config.preset.cephalopods": "Cephalopods",
+  "megapiggy.fishimagereplacer.config.preset.leggycreatures": "Long-Legged Creatures",
+  "megapiggy.fishimagereplacer.config.preset.teethandmouths": "Prominent Teeth & Mouths",
+  "megapiggy.fishimagereplacer.config.preset.borderlinemonster": "Borderline Monster"
 }
