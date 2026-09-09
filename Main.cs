@@ -203,6 +203,7 @@ namespace FishImageReplacer
                 tab.AddOptionButtonLocalized(
                     "PresetNone",
                     "megapiggy.fishimagereplacer.config.preset.none",
+                    "megapiggy.fishimagereplacer.config.preset.none.tooltip",
                     () =>
                     {
                         ApplyNonePreset();
@@ -213,6 +214,7 @@ namespace FishImageReplacer
                 tab.AddOptionButtonLocalized(
                     "PresetAll",
                     "megapiggy.fishimagereplacer.config.preset.all",
+                    "megapiggy.fishimagereplacer.config.preset.all.tooltip",
                     () =>
                     {
                         ApplyAllPreset();
@@ -223,6 +225,7 @@ namespace FishImageReplacer
                 tab.AddOptionButtonLocalized(
                     "PresetAberrations",
                     "megapiggy.fishimagereplacer.config.preset.aberrations",
+                    "megapiggy.fishimagereplacer.config.preset.aberrations.tooltip",
                     () =>
                     {
                         ApplyAberrationsPreset();
@@ -233,6 +236,7 @@ namespace FishImageReplacer
                 tab.AddOptionButtonLocalized(
                     "PresetSharks",
                     "megapiggy.fishimagereplacer.config.preset.sharks",
+                    "megapiggy.fishimagereplacer.config.preset.sharks.tooltip",
                     () =>
                     {
                         ApplySharksPreset();
@@ -243,6 +247,7 @@ namespace FishImageReplacer
                 tab.AddOptionButtonLocalized(
                     "PresetEels",
                     "megapiggy.fishimagereplacer.config.preset.eels",
+                    "megapiggy.fishimagereplacer.config.preset.eels.tooltip",
                     () =>
                     {
                         ApplyEelsPreset();
@@ -253,6 +258,7 @@ namespace FishImageReplacer
                 tab.AddOptionButtonLocalized(
                     "PresetCrustaceansAndArthropods",
                     "megapiggy.fishimagereplacer.config.preset.crustaceansandarthropods",
+                    "megapiggy.fishimagereplacer.config.preset.crustaceansandarthropods.tooltip",
                     () =>
                     {
                         ApplyCrustaceansAndArthropodsPreset();
@@ -263,6 +269,7 @@ namespace FishImageReplacer
                 tab.AddOptionButtonLocalized(
                     "PresetDeepSea",
                     "megapiggy.fishimagereplacer.config.preset.deepsea",
+                    "megapiggy.fishimagereplacer.config.preset.deepsea.tooltip",
                     () =>
                     {
                         ApplyDeepSeaPreset();
@@ -273,6 +280,7 @@ namespace FishImageReplacer
                 tab.AddOptionButtonLocalized(
                     "PresetPrehistoric",
                     "megapiggy.fishimagereplacer.config.preset.prehistoric",
+                    "megapiggy.fishimagereplacer.config.preset.prehistoric.tooltip",
                     () =>
                     {
                         ApplyPrehistoricPreset();
@@ -283,6 +291,7 @@ namespace FishImageReplacer
                 tab.AddOptionButtonLocalized(
                     "PresetCephalopods",
                     "megapiggy.fishimagereplacer.config.preset.cephalopods",
+                    "megapiggy.fishimagereplacer.config.preset.cephalopods.tooltip",
                     () =>
                     {
                         ApplyCephalopodsPreset();
@@ -293,6 +302,7 @@ namespace FishImageReplacer
                 tab.AddOptionButtonLocalized(
                     "PresetLeggyCreatures",
                     "megapiggy.fishimagereplacer.config.preset.leggycreatures",
+                    "megapiggy.fishimagereplacer.config.preset.leggycreatures.tooltip",
                     () =>
                     {
                         ApplyLeggyCreaturesPreset();
@@ -303,6 +313,7 @@ namespace FishImageReplacer
                 tab.AddOptionButtonLocalized(
                     "PresetTeethAndMouths",
                     "megapiggy.fishimagereplacer.config.preset.teethandmouths",
+                    "megapiggy.fishimagereplacer.config.preset.teethandmouths.tooltip",
                     () =>
                     {
                         ApplyTeethAndMouthsPreset();
@@ -313,6 +324,7 @@ namespace FishImageReplacer
                 tab.AddOptionButtonLocalized(
                     "PresetBorderlineMonster",
                     "megapiggy.fishimagereplacer.config.preset.borderlinemonster",
+                    "megapiggy.fishimagereplacer.config.preset.borderlinemonster.tooltip",
                     () =>
                     {
                         ApplyBorderlineMonsterPreset();

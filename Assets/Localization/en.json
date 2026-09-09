@@ -1,14 +1,37 @@
 {
   "megapiggy.fishimagereplacer.config.preset.none": "None",
+  "megapiggy.fishimagereplacer.config.preset.none.tooltip": "Disables image replacement for all creatures.",
+
   "megapiggy.fishimagereplacer.config.preset.all": "All",
+  "megapiggy.fishimagereplacer.config.preset.all.tooltip": "Enables image replacement for all creatures.",
+
   "megapiggy.fishimagereplacer.config.preset.aberrations": "Aberrations",
+  "megapiggy.fishimagereplacer.config.preset.aberrations.tooltip": "Enables image replacement for all aberrations.",
+
   "megapiggy.fishimagereplacer.config.preset.sharks": "Sharks",
+  "megapiggy.fishimagereplacer.config.preset.sharks.tooltip": "Enables image replacement for sharks and their aberrations.",
+
   "megapiggy.fishimagereplacer.config.preset.eels": "Eels",
+  "megapiggy.fishimagereplacer.config.preset.eels.tooltip": "Enables image replacement for eels and their aberrations.",
+
   "megapiggy.fishimagereplacer.config.preset.crustaceansandarthropods": "Crustaceans & Arthropods",
+  "megapiggy.fishimagereplacer.config.preset.crustaceansandarthropods.tooltip": "Enables image replacement for crustaceans, arthropods, and their aberrations.",
+
   "megapiggy.fishimagereplacer.config.preset.deepsea": "Deep-Sea Creatures",
+  "megapiggy.fishimagereplacer.config.preset.deepsea.tooltip": "Enables image replacement for deep-sea creatures and their aberrations.",
+
   "megapiggy.fishimagereplacer.config.preset.prehistoric": "Prehistoric Creatures",
+  "megapiggy.fishimagereplacer.config.preset.prehistoric.tooltip": "Enables image replacement for prehistoric creatures and their aberrations.",
+
   "megapiggy.fishimagereplacer.config.preset.cephalopods": "Cephalopods",
+  "megapiggy.fishimagereplacer.config.preset.cephalopods.tooltip": "Enables image replacement for cephalopods and their aberrations.",
+
   "megapiggy.fishimagereplacer.config.preset.leggycreatures": "Long-Legged Creatures",
+  "megapiggy.fishimagereplacer.config.preset.leggycreatures.tooltip": "Enables image replacement for creatures with prominent long legs.",
+
   "megapiggy.fishimagereplacer.config.preset.teethandmouths": "Prominent Teeth & Mouths",
-  "megapiggy.fishimagereplacer.config.preset.borderlinemonster": "Borderline Monster"
+  "megapiggy.fishimagereplacer.config.preset.teethandmouths.tooltip": "Enables image replacement for specific creatures with prominent teeth or mouths.",
+
+  "megapiggy.fishimagereplacer.config.preset.borderlinemonster": "Borderline Monster",
+  "megapiggy.fishimagereplacer.config.preset.borderlinemonster.tooltip": "Enables image replacement for creatures that fall between ordinary fish and fully monstrous designs."
 }
