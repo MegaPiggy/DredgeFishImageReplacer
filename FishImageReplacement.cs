@@ -16,11 +16,7 @@ public static class FishImageReplacement
     private static string TextureDirectory =>
         Path.Combine(Main.BasePath, "Assets", "Textures");
 
-#if DEBUG
-    private static readonly bool ForceRegenerate = true;
-#else
-    private static readonly bool ForceRegenerate = false;
-#endif
+    private static bool ForceRegenerate => Main.Debug;
 
     public static void Initialize()
     {

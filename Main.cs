@@ -28,9 +28,15 @@ namespace FishImageReplacer
         public static string BasePath => ModAssembly.BasePath;
         public static string GUID => ModAssembly.GUID;
 
+#if DEBUG
+        public static readonly bool Debug = true;
+#else
+        public static readonly bool Debug = false;
+#endif
+
         public static void Initialize()
         {
-            WinchCore.Log.Info($"My mod {ModAssembly.Name} is initializing!");
+            WinchCore.Log.Success($"My mod {ModAssembly.Name} is initializing!");
 
             // Game world
             ApplicationEvents.Instance.OnGameLoaded += OnGameLoaded;
@@ -51,7 +57,10 @@ namespace FishImageReplacer
 
         private static void OnGameStarted()
         {
-            DefaultConfigGenerator.Generate(Path.Combine(BasePath, "default_config.json"));
+            if (Debug)
+            {
+                DefaultConfigGenerator.Generate(Path.Combine(BasePath, "default_config.json"));
+            }
         }
 
         private static void OnGameEnded()

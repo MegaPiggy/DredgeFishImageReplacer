@@ -5,7 +5,7 @@
   "Name": "Fish Image Replacer",
   "ModGUID": "MegaPiggy.FishImageReplacer",
   "Version": "0.1.0",
-  "MinWinchVersion": "0.6.2",
+  "MinWinchVersion": "0.6.3",
   "Entrypoint": "FishImageReplacer.Main/Initialize",
   "Dependencies": [],
   "Conflicts": [],
