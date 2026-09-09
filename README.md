@@ -30,7 +30,11 @@ The following presets are available:
 
 Presets are only a starting point. Individual creatures can still be enabled or disabled afterward.
 
-If there are any fish missing from these presets that should be included, please let me know on the [Modding Discord](https://discord.gg/qFqPuTUAmD) by pinging `@megapiggy`, or email me at [megapiggy@outerwildsmods.com](mailto:megapiggy@outerwildsmods.com).
+If there are any fish missing from these presets that should be included, you can either:
+
+* [Open an issue on GitHub](https://github.com/MegaPiggy/DredgeFishImageReplacer/issues)
+* Ping `@megapiggy` on the [Modding Discord](https://discord.gg/qFqPuTUAmD)
+* Email [megapiggy@outerwildsmods.com](mailto:megapiggy@outerwildsmods.com)
 
 Suggestions for new presets are also welcome.
 
