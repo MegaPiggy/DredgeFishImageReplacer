@@ -17,55 +17,57 @@ public static class DefaultConfigGenerator
     {
         var root = new JObject();
 
-        root.Add("$schema", "https://raw.githubusercontent.com/DREDGE-Mods/Winch/dev/schemas/config_schema.json");
+        root.Add(
+            "$schema",
+            "https://raw.githubusercontent.com/DREDGE-Mods/Winch/dev/schemas/config_schema.json"
+        );
 
         var fish = ItemUtil.GetAllFishItemData()
             .Where(WinchExtensions.IsVanilla)
             .ToList();
 
-        var groups = fish
+        var entitlementGroups = fish
             .GroupBy(GetEntitlementGroup)
             .OrderBy(x => GetGroupOrder(x.Key));
 
-        foreach (var group in groups)
+        foreach (var entitlementGroup in entitlementGroups)
         {
-            var entitlement = group.Key
-                .GetName()
-                .ToLowerInvariant();
+            var entitlementKey = GetEntitlementKey(entitlementGroup.Key);
 
-            if (group.Key == Entitlement.NONE)
+            AddSeparator(
+                root,
+                $"{entitlementKey}Separator",
+                GetEntitlementTitleKey(entitlementGroup.Key)
+            );
+
+            var families = entitlementGroup
+                .GroupBy(GetFamilyRoot)
+                .OrderBy(x => x.Key.id);
+
+            foreach (var family in families)
             {
-                entitlement = "base";
-            }
+                var familyRoot = family.Key;
 
-            var key = entitlement
-                .Replace("_", "");
-
-            root[$"{key}Separator"] = new JObject
-            {
-                ["type"] = "separator",
-                ["title"] = GetEntitlementTitleKey(group.Key)
-            };
-
-            foreach (var fishItemData in group.OrderBy(x => x.id))
-            {
-                var nameKey = PreferLocalizedString(
-                    fishItemData.itemInsaneTitleKey,
-                    fishItemData.itemNameKey
+                var familyNameKey = PreferLocalizedString(
+                    familyRoot.itemInsaneTitleKey,
+                    familyRoot.itemNameKey
                 );
 
-                var descriptionKey = PreferLocalizedString(
-                    fishItemData.itemInsaneDescriptionKey,
-                    fishItemData.itemDescriptionKey
+                // Include the entitlement in the key because some fish have
+                // aberrations belonging to a different DLC than their parent.
+                AddSeparator(
+                    root,
+                    $"{entitlementKey}-{familyRoot.id}Separator",
+                    GetLocalizationReference(familyNameKey)
                 );
 
-                root[fishItemData.id] = new JObject
+                // Normal fish first, then its aberrations.
+                foreach (var fishItemData in family
+                    .OrderBy(x => x.IsAberration)
+                    .ThenBy(x => x.id))
                 {
-                    ["type"] = "toggle",
-                    ["title"] = GetLocalizationReference(nameKey),
-                    ["tooltip"] = GetLocalizationReference(descriptionKey),
-                    ["value"] = false
-                };
+                    AddFishToggle(root, fishItemData);
+                }
             }
         }
 
@@ -79,6 +81,51 @@ public static class DefaultConfigGenerator
         );
     }
 
+    private static void AddFishToggle(
+        JObject root,
+        FishItemData fishItemData)
+    {
+        var nameKey = PreferLocalizedString(
+            fishItemData.itemInsaneTitleKey,
+            fishItemData.itemNameKey
+        );
+
+        var descriptionKey = PreferLocalizedString(
+            fishItemData.itemInsaneDescriptionKey,
+            fishItemData.itemDescriptionKey
+        );
+
+        root[fishItemData.id] = new JObject
+        {
+            ["type"] = "toggle",
+            ["title"] = GetLocalizationReference(nameKey),
+            ["tooltip"] = GetLocalizationReference(descriptionKey),
+            ["value"] = false
+        };
+    }
+
+    private static void AddSeparator(
+        JObject root,
+        string key,
+        string title)
+    {
+        root[key] = new JObject
+        {
+            ["type"] = "separator",
+            ["title"] = title
+        };
+    }
+
+    private static FishItemData GetFamilyRoot(FishItemData fish)
+    {
+        if (fish.IsAberration && fish.NonAberrationParent != null)
+        {
+            return fish.NonAberrationParent;
+        }
+
+        return fish;
+    }
+
     private static LocalizedString PreferLocalizedString(
         LocalizedString preferred,
         LocalizedString fallback)
@@ -88,26 +135,59 @@ public static class DefaultConfigGenerator
             : fallback;
     }
 
-    private static string GetLocalizationReference(LocalizedString localizedString)
+    private static string GetLocalizationReference(
+        LocalizedString localizedString)
     {
         var table = LocalizationSettings.StringDatabase
             .GetTableAsync(localizedString.TableReference)
             .WaitForCompletion();
 
-        var key = localizedString.TableEntryReference.ResolveKeyName(table.SharedData);
+        var key = localizedString.TableEntryReference
+            .ResolveKeyName(table.SharedData);
 
         return $"{table.TableCollectionName}:{key}";
     }
 
     private static Entitlement GetEntitlementGroup(FishItemData fish)
     {
+        // Exotic aberrations should stay with their original fish,
+        // regardless of what entitlement the aberration itself has.
+        if (fish.IsAberration &&
+            fish.NonAberrationParent != null)
+        {
+            return GetEntitlementGroup(fish.NonAberrationParent);
+        }
+
         if (fish.entitlementsRequired == null ||
             fish.entitlementsRequired.Count == 0)
         {
             return Entitlement.NONE;
         }
 
+        if (fish.entitlementsRequired.Contains(EntitlementExtra.IRON_RIG))
+        {
+            return EntitlementExtra.IRON_RIG;
+        }
+
+        if (fish.entitlementsRequired.Contains(EntitlementExtra.PALE_REACH))
+        {
+            return EntitlementExtra.PALE_REACH;
+        }
+
         return fish.entitlementsRequired.FirstOrDefault();
+    }
+
+    private static string GetEntitlementKey(Entitlement entitlement)
+    {
+        if (entitlement == Entitlement.NONE)
+        {
+            return "base";
+        }
+
+        return entitlement
+            .GetName()
+            .ToLowerInvariant()
+            .Replace("_", "");
     }
 
     private static string GetEntitlementTitleKey(Entitlement entitlement)

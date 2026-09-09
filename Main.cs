@@ -158,7 +158,9 @@ namespace FishImageReplacer
             "gulper-eel",
             "nipponites",
             "goblin-shark",
-            "frilled-shark"
+            "frilled-shark",
+            "black-grouper",
+            "stonefish"
         };
 
         private static readonly HashSet<string> BorderlineMonster = new()

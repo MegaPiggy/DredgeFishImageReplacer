@@ -4,6 +4,10 @@
     "type": "separator",
     "title": "tab.tier-0"
   },
+  "base-anchovySeparator": {
+    "type": "separator",
+    "title": "Items:item.anchovy.name"
+  },
   "anchovy": {
     "type": "toggle",
     "title": "Items:item.anchovy.name",
@@ -15,6 +19,10 @@
     "title": "Items:item.anchovy-ab-1.name",
     "tooltip": "Items:item.anchovy-ab-1.description",
     "value": false
+  },
+  "base-anglerfishSeparator": {
+    "type": "separator",
+    "title": "Items:item.anglerfish.name"
   },
   "anglerfish": {
     "type": "toggle",
@@ -28,6 +36,10 @@
     "tooltip": "Items:item.anglerfish-ab-1.description",
     "value": false
   },
+  "base-aurora-jellyfishSeparator": {
+    "type": "separator",
+    "title": "Items:item.aurora-jellyfish.name"
+  },
   "aurora-jellyfish": {
     "type": "toggle",
     "title": "Items:item.aurora-jellyfish.name",
@@ -39,6 +51,10 @@
     "title": "Items:item.aurora-jellyfish-ab-1.name",
     "tooltip": "Items:item.aurora-jellyfish-ab-1.description",
     "value": false
+  },
+  "base-barracudaSeparator": {
+    "type": "separator",
+    "title": "Items:item.barracuda.name"
   },
   "barracuda": {
     "type": "toggle",
@@ -58,6 +74,10 @@
     "tooltip": "Items:item.barracuda-ab-2.description",
     "value": false
   },
+  "base-barreleyeSeparator": {
+    "type": "separator",
+    "title": "Items:item.barreleye.name"
+  },
   "barreleye": {
     "type": "toggle",
     "title": "Items:item.barreleye.name",
@@ -70,6 +90,10 @@
     "tooltip": "Items:item.barreleye-ab-1.description",
     "value": false
   },
+  "base-blackfin-tunaSeparator": {
+    "type": "separator",
+    "title": "Items:item.blackfin-tuna.name"
+  },
   "blackfin-tuna": {
     "type": "toggle",
     "title": "Items:item.blackfin-tuna.name",
@@ -81,6 +105,10 @@
     "title": "Items:item.blackfin-tuna-ab-1.name",
     "tooltip": "Items:item.blackfin-tuna-ab-1.description",
     "value": false
+  },
+  "base-black-grouperSeparator": {
+    "type": "separator",
+    "title": "Items:item.black-grouper.name"
   },
   "black-grouper": {
     "type": "toggle",
@@ -100,6 +128,10 @@
     "tooltip": "Items:item.black-grouper-ab-2.description",
     "value": false
   },
+  "base-blackmouth-salmonSeparator": {
+    "type": "separator",
+    "title": "Items:item.blackmouth-salmon.name"
+  },
   "blackmouth-salmon": {
     "type": "toggle",
     "title": "Items:item.blackmouth-salmon.name",
@@ -111,6 +143,10 @@
     "title": "Items:item.blackmouth-salmon-ab-1.name",
     "tooltip": "Items:item.blackmouth-salmon-ab-1.description",
     "value": false
+  },
+  "base-black-sea-bassSeparator": {
+    "type": "separator",
+    "title": "Items:item.black-sea-bass.name"
   },
   "black-sea-bass": {
     "type": "toggle",
@@ -124,6 +160,10 @@
     "tooltip": "Items:item.black-sea-bass-ab-1.description",
     "value": false
   },
+  "base-blacktip-reef-sharkSeparator": {
+    "type": "separator",
+    "title": "Items:item.blacktip-reef-shark.name"
+  },
   "blacktip-reef-shark": {
     "type": "toggle",
     "title": "Items:item.blacktip-reef-shark.name",
@@ -135,6 +175,10 @@
     "title": "Items:item.blacktip-reef-shark-ab-1.name",
     "tooltip": "Items:item.blacktip-reef-shark-ab-1.description",
     "value": false
+  },
+  "base-blue-crabSeparator": {
+    "type": "separator",
+    "title": "Items:item.blue-crab.name"
   },
   "blue-crab": {
     "type": "toggle",
@@ -148,6 +192,10 @@
     "tooltip": "Items:item.blue-crab-ab-1.description",
     "value": false
   },
+  "base-bronze-whalerSeparator": {
+    "type": "separator",
+    "title": "Items:item.bronze-whaler.name"
+  },
   "bronze-whaler": {
     "type": "toggle",
     "title": "Items:item.bronze-whaler.name",
@@ -160,6 +208,10 @@
     "tooltip": "Items:item.bronze-whaler-ab-1.description",
     "value": false
   },
+  "base-catfishSeparator": {
+    "type": "separator",
+    "title": "Items:item.catfish.name"
+  },
   "catfish": {
     "type": "toggle",
     "title": "Items:item.catfish.name",
@@ -171,6 +223,10 @@
     "title": "Items:item.catfish-ab-1.name",
     "tooltip": "Items:item.catfish-ab-1.description",
     "value": false
+  },
+  "base-codSeparator": {
+    "type": "separator",
+    "title": "Items:item.cod.name"
   },
   "cod": {
     "type": "toggle",
@@ -196,11 +252,25 @@
     "tooltip": "Items:item.cod-ab-3.description",
     "value": false
   },
+  "base-coelacanthSeparator": {
+    "type": "separator",
+    "title": "Items:item.coelacanth.name"
+  },
   "coelacanth": {
     "type": "toggle",
     "title": "Items:item.coelacanth.name",
     "tooltip": "Items:item.coelacanth.description",
     "value": false
+  },
+  "coelacanth-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.coelacanth-ab-1.name",
+    "tooltip": "Items:item.coelacanth-ab-1.description",
+    "value": false
+  },
+  "base-conger-eelSeparator": {
+    "type": "separator",
+    "title": "Items:item.conger-eel.name"
   },
   "conger-eel": {
     "type": "toggle",
@@ -214,6 +284,10 @@
     "tooltip": "Items:item.conger-eel-ab-1.description",
     "value": false
   },
+  "base-coral-grouperSeparator": {
+    "type": "separator",
+    "title": "Items:item.coral-grouper.name"
+  },
   "coral-grouper": {
     "type": "toggle",
     "title": "Items:item.coral-grouper.name",
@@ -225,6 +299,10 @@
     "title": "Items:item.coral-grouper-ab-1.name",
     "tooltip": "Items:item.coral-grouper-ab-1.description",
     "value": false
+  },
+  "base-crabSeparator": {
+    "type": "separator",
+    "title": "Items:item.crab.name"
   },
   "crab": {
     "type": "toggle",
@@ -238,6 +316,10 @@
     "tooltip": "Items:item.crab-ab-1.description",
     "value": false
   },
+  "base-crown-of-thornsSeparator": {
+    "type": "separator",
+    "title": "Items:item.crown-of-thorns.name"
+  },
   "crown-of-thorns": {
     "type": "toggle",
     "title": "Items:item.crown-of-thorns.name",
@@ -249,6 +331,10 @@
     "title": "Items:item.crown-of-thorns-ab-1.name",
     "tooltip": "Items:item.crown-of-thorns-ab-1.description",
     "value": false
+  },
+  "base-cusk-eelSeparator": {
+    "type": "separator",
+    "title": "Items:item.cusk-eel.name"
   },
   "cusk-eel": {
     "type": "toggle",
@@ -262,6 +348,10 @@
     "tooltip": "Items:item.cusk-eel-ab-1.description",
     "value": false
   },
+  "base-decorator-crabSeparator": {
+    "type": "separator",
+    "title": "Items:item.decorator-crab.name"
+  },
   "decorator-crab": {
     "type": "toggle",
     "title": "Items:item.decorator-crab.name",
@@ -274,6 +364,10 @@
     "tooltip": "Items:item.decorator-crab-ab-1.description",
     "value": false
   },
+  "base-devil-raySeparator": {
+    "type": "separator",
+    "title": "Items:item.devil-ray.name"
+  },
   "devil-ray": {
     "type": "toggle",
     "title": "Items:item.devil-ray.name",
@@ -285,6 +379,10 @@
     "title": "Items:item.devil-ray-ab-1.name",
     "tooltip": "Items:item.devil-ray-ab-1.description",
     "value": false
+  },
+  "base-eelSeparator": {
+    "type": "separator",
+    "title": "Items:item.eel.name"
   },
   "eel": {
     "type": "toggle",
@@ -304,6 +402,10 @@
     "tooltip": "Items:item.eel-ab-2.description",
     "value": false
   },
+  "base-fangtoothSeparator": {
+    "type": "separator",
+    "title": "Items:item.fangtooth.name"
+  },
   "fangtooth": {
     "type": "toggle",
     "title": "Items:item.fangtooth.name",
@@ -315,6 +417,10 @@
     "title": "Items:item.fangtooth-ab-1.name",
     "tooltip": "Items:item.fangtooth-ab-1.description",
     "value": false
+  },
+  "base-fiddler-crabSeparator": {
+    "type": "separator",
+    "title": "Items:item.fiddler-crab.name"
   },
   "fiddler-crab": {
     "type": "toggle",
@@ -328,6 +434,10 @@
     "tooltip": "Items:item.fiddler-crab-ab-1.description",
     "value": false
   },
+  "base-firefly-squidSeparator": {
+    "type": "separator",
+    "title": "Items:item.firefly-squid.name"
+  },
   "firefly-squid": {
     "type": "toggle",
     "title": "Items:item.firefly-squid.name",
@@ -339,6 +449,10 @@
     "title": "Items:item.firefly-squid-ab-1.name",
     "tooltip": "Items:item.firefly-squid-ab-1.description",
     "value": false
+  },
+  "base-flounderSeparator": {
+    "type": "separator",
+    "title": "Items:item.flounder.name"
   },
   "flounder": {
     "type": "toggle",
@@ -358,6 +472,10 @@
     "tooltip": "Items:item.flounder-ab-2.description",
     "value": false
   },
+  "base-frilled-sharkSeparator": {
+    "type": "separator",
+    "title": "Items:item.frilled-shark.name"
+  },
   "frilled-shark": {
     "type": "toggle",
     "title": "Items:item.frilled-shark.name",
@@ -369,6 +487,10 @@
     "title": "Items:item.frilled-shark-ab-1.name",
     "tooltip": "Items:item.frilled-shark-ab-1.description",
     "value": false
+  },
+  "base-garSeparator": {
+    "type": "separator",
+    "title": "Items:item.gar.name"
   },
   "gar": {
     "type": "toggle",
@@ -388,6 +510,10 @@
     "tooltip": "Items:item.gar-ab-2.description",
     "value": false
   },
+  "base-ghost-sharkSeparator": {
+    "type": "separator",
+    "title": "Items:item.ghost-shark.name"
+  },
   "ghost-shark": {
     "type": "toggle",
     "title": "Items:item.ghost-shark.name",
@@ -399,6 +525,10 @@
     "title": "Items:item.ghost-shark-ab-1.name",
     "tooltip": "Items:item.ghost-shark-ab-1.description",
     "value": false
+  },
+  "base-giant-amphipodSeparator": {
+    "type": "separator",
+    "title": "Items:item.giant-amphipod.name"
   },
   "giant-amphipod": {
     "type": "toggle",
@@ -412,6 +542,10 @@
     "tooltip": "Items:item.giant-amphipod-ab-1.description",
     "value": false
   },
+  "base-giant-mud-crabSeparator": {
+    "type": "separator",
+    "title": "Items:item.giant-mud-crab.name"
+  },
   "giant-mud-crab": {
     "type": "toggle",
     "title": "Items:item.giant-mud-crab.name",
@@ -423,6 +557,10 @@
     "title": "Items:item.giant-mud-crab-ab-1.name",
     "tooltip": "Items:item.giant-mud-crab-ab-1.description",
     "value": false
+  },
+  "base-glowing-octopusSeparator": {
+    "type": "separator",
+    "title": "Items:item.glowing-octopus.name"
   },
   "glowing-octopus": {
     "type": "toggle",
@@ -436,11 +574,25 @@
     "tooltip": "Items:item.glowing-octopus-ab-1.description",
     "value": false
   },
+  "base-goliath-tigerfishSeparator": {
+    "type": "separator",
+    "title": "Items:item.goliath-tigerfish.name"
+  },
   "goliath-tigerfish": {
     "type": "toggle",
     "title": "Items:item.goliath-tigerfish.name",
     "tooltip": "Items:item.goliath-tigerfish.description",
     "value": false
+  },
+  "goliath-tigerfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.goliath-tigerfish-ab-1.name",
+    "tooltip": "Items:item.goliath-tigerfish-ab-1.description",
+    "value": false
+  },
+  "base-grey-mulletSeparator": {
+    "type": "separator",
+    "title": "Items:item.grey-mullet.name"
   },
   "grey-mullet": {
     "type": "toggle",
@@ -460,11 +612,25 @@
     "tooltip": "Items:item.grey-mullet-ab-2.description",
     "value": false
   },
+  "base-gulper-eelSeparator": {
+    "type": "separator",
+    "title": "Items:item.gulper-eel.name"
+  },
   "gulper-eel": {
     "type": "toggle",
     "title": "Items:item.gulper-eel.name",
     "tooltip": "Items:item.gulper-eel.description",
     "value": false
+  },
+  "gulper-eel-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.gulper-eel-ab-1.name",
+    "tooltip": "Items:item.gulper-eel-ab-1.description",
+    "value": false
+  },
+  "base-hammerhead-sharkSeparator": {
+    "type": "separator",
+    "title": "Items:item.hammerhead-shark.name"
   },
   "hammerhead-shark": {
     "type": "toggle",
@@ -478,6 +644,10 @@
     "tooltip": "Items:item.hammerhead-shark-ab-1.description",
     "value": false
   },
+  "base-horseshoe-crabSeparator": {
+    "type": "separator",
+    "title": "Items:item.horseshoe-crab.name"
+  },
   "horseshoe-crab": {
     "type": "toggle",
     "title": "Items:item.horseshoe-crab.name",
@@ -490,6 +660,10 @@
     "tooltip": "Items:item.horseshoe-crab-ab-1.description",
     "value": false
   },
+  "base-longfin-eelSeparator": {
+    "type": "separator",
+    "title": "Items:item.longfin-eel.name"
+  },
   "longfin-eel": {
     "type": "toggle",
     "title": "Items:item.longfin-eel.name",
@@ -501,6 +675,10 @@
     "title": "Items:item.longfin-eel-ab-1.name",
     "tooltip": "Items:item.longfin-eel-ab-1.description",
     "value": false
+  },
+  "base-mackerelSeparator": {
+    "type": "separator",
+    "title": "Items:item.mackerel.name"
   },
   "mackerel": {
     "type": "toggle",
@@ -526,6 +704,10 @@
     "tooltip": "Items:item.mackerel-ab-3.description",
     "value": false
   },
+  "base-moonfishSeparator": {
+    "type": "separator",
+    "title": "Items:item.moonfish.name"
+  },
   "moonfish": {
     "type": "toggle",
     "title": "Items:item.moonfish.name",
@@ -544,11 +726,25 @@
     "tooltip": "Items:item.moonfish-ab-2.description",
     "value": false
   },
+  "base-oarfishSeparator": {
+    "type": "separator",
+    "title": "Items:item.oarfish.name"
+  },
   "oarfish": {
     "type": "toggle",
     "title": "Items:item.oarfish.name",
     "tooltip": "Items:item.oarfish.description",
     "value": false
+  },
+  "oarfish-ab-1": {
+    "type": "toggle",
+    "title": "Items:item.oarfish-ab-1.name",
+    "tooltip": "Items:item.oarfish-ab-1.description",
+    "value": false
+  },
+  "base-oceanic-perchSeparator": {
+    "type": "separator",
+    "title": "Items:item.oceanic-perch.name"
   },
   "oceanic-perch": {
     "type": "toggle",
@@ -562,6 +758,10 @@
     "tooltip": "Items:item.oceanic-perch-ab-1.description",
     "value": false
   },
+  "base-pale-skateSeparator": {
+    "type": "separator",
+    "title": "Items:item.pale-skate.name"
+  },
   "pale-skate": {
     "type": "toggle",
     "title": "Items:item.pale-skate.name",
@@ -574,6 +774,10 @@
     "tooltip": "Items:item.pale-skate-ab-1.description",
     "value": false
   },
+  "base-rattailSeparator": {
+    "type": "separator",
+    "title": "Items:item.rattail.name"
+  },
   "rattail": {
     "type": "toggle",
     "title": "Items:item.rattail.name",
@@ -585,6 +789,10 @@
     "title": "Items:item.rattail-ab-1.name",
     "tooltip": "Items:item.rattail-ab-1.description",
     "value": false
+  },
+  "base-red-snapperSeparator": {
+    "type": "separator",
+    "title": "Items:item.red-snapper.name"
   },
   "red-snapper": {
     "type": "toggle",
@@ -604,6 +812,10 @@
     "tooltip": "Items:item.red-snapper-ab-2.description",
     "value": false
   },
+  "base-rock-crabSeparator": {
+    "type": "separator",
+    "title": "Items:item.rock-crab.name"
+  },
   "rock-crab": {
     "type": "toggle",
     "title": "Items:item.rock-crab.name",
@@ -615,6 +827,10 @@
     "title": "Items:item.rock-crab-ab-1.name",
     "tooltip": "Items:item.rock-crab-ab-1.description",
     "value": false
+  },
+  "base-sailfishSeparator": {
+    "type": "separator",
+    "title": "Items:item.sailfish.name"
   },
   "sailfish": {
     "type": "toggle",
@@ -634,6 +850,10 @@
     "tooltip": "Items:item.sailfish-ab-2.description",
     "value": false
   },
+  "base-scarlet-prawnSeparator": {
+    "type": "separator",
+    "title": "Items:item.scarlet-prawn.name"
+  },
   "scarlet-prawn": {
     "type": "toggle",
     "title": "Items:item.scarlet-prawn.name",
@@ -645,6 +865,10 @@
     "title": "Items:item.scarlet-prawn-ab-1.name",
     "tooltip": "Items:item.scarlet-prawn-ab-1.description",
     "value": false
+  },
+  "base-searobinSeparator": {
+    "type": "separator",
+    "title": "Items:item.searobin.name"
   },
   "searobin": {
     "type": "toggle",
@@ -658,6 +882,10 @@
     "tooltip": "Items:item.searobin-ab-1.description",
     "value": false
   },
+  "base-sergeant-fishSeparator": {
+    "type": "separator",
+    "title": "Items:item.sergeant-fish.name"
+  },
   "sergeant-fish": {
     "type": "toggle",
     "title": "Items:item.sergeant-fish.name",
@@ -669,6 +897,10 @@
     "title": "Items:item.sergeant-fish-ab-1.name",
     "tooltip": "Items:item.sergeant-fish-ab-1.description",
     "value": false
+  },
+  "base-snailfishSeparator": {
+    "type": "separator",
+    "title": "Items:item.snailfish.name"
   },
   "snailfish": {
     "type": "toggle",
@@ -688,6 +920,10 @@
     "tooltip": "Items:item.snailfish-ab-2.description",
     "value": false
   },
+  "base-snake-mackerelSeparator": {
+    "type": "separator",
+    "title": "Items:item.snake-mackerel.name"
+  },
   "snake-mackerel": {
     "type": "toggle",
     "title": "Items:item.snake-mackerel.name",
@@ -706,6 +942,10 @@
     "tooltip": "Items:item.snake-mackerel-ab-2.description",
     "value": false
   },
+  "base-spider-crabSeparator": {
+    "type": "separator",
+    "title": "Items:item.spider-crab.name"
+  },
   "spider-crab": {
     "type": "toggle",
     "title": "Items:item.spider-crab.name",
@@ -717,6 +957,10 @@
     "title": "Items:item.spider-crab-ab-1.name",
     "tooltip": "Items:item.spider-crab-ab-1.description",
     "value": false
+  },
+  "base-spiny-lobsterSeparator": {
+    "type": "separator",
+    "title": "Items:item.spiny-lobster.name"
   },
   "spiny-lobster": {
     "type": "toggle",
@@ -730,6 +974,10 @@
     "tooltip": "Items:item.spiny-lobster-ab-1.description",
     "value": false
   },
+  "base-squat-lobsterSeparator": {
+    "type": "separator",
+    "title": "Items:item.squat-lobster.name"
+  },
   "squat-lobster": {
     "type": "toggle",
     "title": "Items:item.squat-lobster.name",
@@ -741,6 +989,10 @@
     "title": "Items:item.squat-lobster-ab-1.name",
     "tooltip": "Items:item.squat-lobster-ab-1.description",
     "value": false
+  },
+  "base-squidSeparator": {
+    "type": "separator",
+    "title": "Items:item.squid.name"
   },
   "squid": {
     "type": "toggle",
@@ -760,6 +1012,10 @@
     "tooltip": "Items:item.squid-ab-2.description",
     "value": false
   },
+  "base-stingraySeparator": {
+    "type": "separator",
+    "title": "Items:item.stingray.name"
+  },
   "stingray": {
     "type": "toggle",
     "title": "Items:item.stingray.name",
@@ -771,6 +1027,10 @@
     "title": "Items:item.stingray-ab-1.name",
     "tooltip": "Items:item.stingray-ab-1.description",
     "value": false
+  },
+  "base-stonefishSeparator": {
+    "type": "separator",
+    "title": "Items:item.stonefish.name"
   },
   "stonefish": {
     "type": "toggle",
@@ -790,6 +1050,10 @@
     "tooltip": "Items:item.stonefish-ab-2.description",
     "value": false
   },
+  "base-stoplight-loosejawSeparator": {
+    "type": "separator",
+    "title": "Items:item.loosejaw.name"
+  },
   "stoplight-loosejaw": {
     "type": "toggle",
     "title": "Items:item.loosejaw.name",
@@ -802,6 +1066,10 @@
     "tooltip": "Items:item.loosejaw-ab-1.description",
     "value": false
   },
+  "base-sturgeonSeparator": {
+    "type": "separator",
+    "title": "Items:item.sturgeon.name"
+  },
   "sturgeon": {
     "type": "toggle",
     "title": "Items:item.sturgeon.name",
@@ -813,6 +1081,10 @@
     "title": "Items:item.sturgeon-ab-1.name",
     "tooltip": "Items:item.sturgeon-ab-1.description",
     "value": false
+  },
+  "base-sunfishSeparator": {
+    "type": "separator",
+    "title": "Items:item.sunfish.name"
   },
   "sunfish": {
     "type": "toggle",
@@ -832,6 +1104,10 @@
     "tooltip": "Items:item.sunfish-ab-2.description",
     "value": false
   },
+  "base-tarponSeparator": {
+    "type": "separator",
+    "title": "Items:item.tarpon.name"
+  },
   "tarpon": {
     "type": "toggle",
     "title": "Items:item.tarpon.name",
@@ -843,6 +1119,10 @@
     "title": "Items:item.tarpon-ab-1.name",
     "tooltip": "Items:item.tarpon-ab-1.description",
     "value": false
+  },
+  "base-tiger-mackerelSeparator": {
+    "type": "separator",
+    "title": "Items:item.tiger-mackerel.name"
   },
   "tiger-mackerel": {
     "type": "toggle",
@@ -862,6 +1142,10 @@
     "tooltip": "Items:item.tiger-mackerel-ab-2.description",
     "value": false
   },
+  "base-viperfishSeparator": {
+    "type": "separator",
+    "title": "Items:item.viperfish.name"
+  },
   "viperfish": {
     "type": "toggle",
     "title": "Items:item.viperfish.name",
@@ -880,6 +1164,10 @@
     "tooltip": "Items:item.viperfish-ab-2.description",
     "value": false
   },
+  "base-volcano-snailSeparator": {
+    "type": "separator",
+    "title": "Items:item.volcano-snail.name"
+  },
   "volcano-snail": {
     "type": "toggle",
     "title": "Items:item.volcano-snail.name",
@@ -891,6 +1179,10 @@
     "title": "Items:item.volcano-snail-ab-1.name",
     "tooltip": "Items:item.volcano-snail-ab-1.description",
     "value": false
+  },
+  "base-wreckfishSeparator": {
+    "type": "separator",
+    "title": "Items:item.wreckfish.name"
   },
   "wreckfish": {
     "type": "toggle",
@@ -914,6 +1206,10 @@
     "type": "separator",
     "title": "label.pale-reach"
   },
+  "dlc1-charSeparator": {
+    "type": "separator",
+    "title": "Items:item.char.name"
+  },
   "char": {
     "type": "toggle",
     "title": "Items:item.char.name",
@@ -925,6 +1221,10 @@
     "title": "Items:item.char-ab-1.name",
     "tooltip": "Items:item.char-ab-1.description",
     "value": false
+  },
+  "dlc1-colossal-squidSeparator": {
+    "type": "separator",
+    "title": "Items:item.colossal-squid.name"
   },
   "colossal-squid": {
     "type": "toggle",
@@ -938,6 +1238,10 @@
     "tooltip": "Items:item.colossal-squid-ab-1.description",
     "value": false
   },
+  "dlc1-goblin-sharkSeparator": {
+    "type": "separator",
+    "title": "Items:item.goblin-shark.name"
+  },
   "goblin-shark": {
     "type": "toggle",
     "title": "Items:item.goblin-shark.name",
@@ -949,6 +1253,10 @@
     "title": "Items:item.goblin-shark-ab-1.name",
     "tooltip": "Items:item.goblin-shark-ab-1.description",
     "value": false
+  },
+  "dlc1-icefishSeparator": {
+    "type": "separator",
+    "title": "Items:item.icefish.name"
   },
   "icefish": {
     "type": "toggle",
@@ -974,6 +1282,10 @@
     "tooltip": "Items:item.icefish-ab-3.description",
     "value": false
   },
+  "dlc1-king-crabSeparator": {
+    "type": "separator",
+    "title": "Items:item.king-crab.name"
+  },
   "king-crab": {
     "type": "toggle",
     "title": "Items:item.king-crab.name",
@@ -985,6 +1297,10 @@
     "title": "Items:item.king-crab-ab-1.name",
     "tooltip": "Items:item.king-crab-ab-1.description",
     "value": false
+  },
+  "dlc1-lizardfishSeparator": {
+    "type": "separator",
+    "title": "Items:item.lizardfish.name"
   },
   "lizardfish": {
     "type": "toggle",
@@ -998,6 +1314,10 @@
     "tooltip": "Items:item.lizardfish-ab-1.description",
     "value": false
   },
+  "dlc1-sea-starsSeparator": {
+    "type": "separator",
+    "title": "Items:item.sea-stars.name"
+  },
   "sea-stars": {
     "type": "toggle",
     "title": "Items:item.sea-stars.name",
@@ -1009,6 +1329,10 @@
     "title": "Items:item.sea-stars-ab-1.name",
     "tooltip": "Items:item.sea-stars-ab-1.description",
     "value": false
+  },
+  "dlc1-sleeper-sharkSeparator": {
+    "type": "separator",
+    "title": "Items:item.sleeper-shark.name"
   },
   "sleeper-shark": {
     "type": "toggle",
@@ -1022,6 +1346,10 @@
     "tooltip": "Items:item.sleeper-shark-ab-1.description",
     "value": false
   },
+  "dlc1-stargazerSeparator": {
+    "type": "separator",
+    "title": "Items:item.stargazer.name"
+  },
   "stargazer": {
     "type": "toggle",
     "title": "Items:item.stargazer.name",
@@ -1034,6 +1362,10 @@
     "tooltip": "Items:item.stargazer-ab-1.description",
     "value": false
   },
+  "dlc1-toothfishSeparator": {
+    "type": "separator",
+    "title": "Items:item.toothfish.name"
+  },
   "toothfish": {
     "type": "toggle",
     "title": "Items:item.toothfish.name",
@@ -1045,6 +1377,10 @@
     "title": "Items:item.toothfish-ab-1.name",
     "tooltip": "Items:item.toothfish-ab-1.description",
     "value": false
+  },
+  "dlc1-wolffishSeparator": {
+    "type": "separator",
+    "title": "Items:item.wolffish.name"
   },
   "wolffish": {
     "type": "toggle",
@@ -1062,6 +1398,10 @@
     "type": "separator",
     "title": "label.the-iron-rig"
   },
+  "dlc2-abyssal-garSeparator": {
+    "type": "separator",
+    "title": "Items:item.abyssal-gar.name"
+  },
   "abyssal-gar": {
     "type": "toggle",
     "title": "Items:item.abyssal-gar.name",
@@ -1073,6 +1413,10 @@
     "title": "Items:item.abyssal-gar-ab-1.name",
     "tooltip": "Items:item.abyssal-gar-ab-1.description",
     "value": false
+  },
+  "dlc2-arapaimaSeparator": {
+    "type": "separator",
+    "title": "Items:item.arapaima.name"
   },
   "arapaima": {
     "type": "toggle",
@@ -1086,6 +1430,10 @@
     "tooltip": "Items:item.arapaima-ab-1.description",
     "value": false
   },
+  "dlc2-boreaspisSeparator": {
+    "type": "separator",
+    "title": "Items:item.boreaspis.name"
+  },
   "boreaspis": {
     "type": "toggle",
     "title": "Items:item.boreaspis.name",
@@ -1098,17 +1446,19 @@
     "tooltip": "Items:item.boreaspis-ab-1.description",
     "value": false
   },
-  "coelacanth-ab-1": {
-    "type": "toggle",
-    "title": "Items:item.coelacanth-ab-1.name",
-    "tooltip": "Items:item.coelacanth-ab-1.description",
-    "value": false
+  "dlc2-deep-form-ab-1Separator": {
+    "type": "separator",
+    "title": "Items:item.deep-form-ab-1.name-alt"
   },
   "deep-form-ab-1": {
     "type": "toggle",
-    "title": "Items:item.deep-form-ab-1.name",
-    "tooltip": "Items:item.deep-form-ab-1.description",
+    "title": "Items:item.deep-form-ab-1.name-alt",
+    "tooltip": "Items:item.deep-form-ab-1.description-alt",
     "value": false
+  },
+  "dlc2-dunkleosteusSeparator": {
+    "type": "separator",
+    "title": "Items:item.dunkleosteus.name"
   },
   "dunkleosteus": {
     "type": "toggle",
@@ -1122,6 +1472,10 @@
     "tooltip": "Items:item.dunkleosteus-ab-1.description",
     "value": false
   },
+  "dlc2-eagle-sharkSeparator": {
+    "type": "separator",
+    "title": "Items:item.eagle-shark.name"
+  },
   "eagle-shark": {
     "type": "toggle",
     "title": "Items:item.eagle-shark.name",
@@ -1133,6 +1487,10 @@
     "title": "Items:item.eagle-shark-ab-1.name",
     "tooltip": "Items:item.eagle-shark-ab-1.description",
     "value": false
+  },
+  "dlc2-giant-dragonfishSeparator": {
+    "type": "separator",
+    "title": "Items:item.giant-dragonfish.name"
   },
   "giant-dragonfish": {
     "type": "toggle",
@@ -1146,17 +1504,9 @@
     "tooltip": "Items:item.giant-dragonfish-ab-1.description",
     "value": false
   },
-  "goliath-tigerfish-ab-1": {
-    "type": "toggle",
-    "title": "Items:item.goliath-tigerfish-ab-1.name",
-    "tooltip": "Items:item.goliath-tigerfish-ab-1.description",
-    "value": false
-  },
-  "gulper-eel-ab-1": {
-    "type": "toggle",
-    "title": "Items:item.gulper-eel-ab-1.name",
-    "tooltip": "Items:item.gulper-eel-ab-1.description",
-    "value": false
+  "dlc2-kerygmachelaSeparator": {
+    "type": "separator",
+    "title": "Items:item.kerygmachela.name"
   },
   "kerygmachela": {
     "type": "toggle",
@@ -1170,6 +1520,10 @@
     "tooltip": "Items:item.kerygmachela-ab-1.description",
     "value": false
   },
+  "dlc2-lancetfishSeparator": {
+    "type": "separator",
+    "title": "Items:item.lancetfish.name"
+  },
   "lancetfish": {
     "type": "toggle",
     "title": "Items:item.lancetfish.name",
@@ -1181,6 +1535,10 @@
     "title": "Items:item.lancetfish-ab-1.name",
     "tooltip": "Items:item.lancetfish-ab-1.description",
     "value": false
+  },
+  "dlc2-mahi-mahiSeparator": {
+    "type": "separator",
+    "title": "Items:item.mahi-mahi.name"
   },
   "mahi-mahi": {
     "type": "toggle",
@@ -1194,6 +1552,10 @@
     "tooltip": "Items:item.mahi-mahi-ab-1.description",
     "value": false
   },
+  "dlc2-nautilusSeparator": {
+    "type": "separator",
+    "title": "Items:item.nautilus.name"
+  },
   "nautilus": {
     "type": "toggle",
     "title": "Items:item.nautilus.name",
@@ -1203,8 +1565,12 @@
   "nautilus-ab-1": {
     "type": "toggle",
     "title": "Items:item.nautilus-ab-1.name",
-    "tooltip": "Items:item.nautilus-ab-1.description",
+    "tooltip": "Items:item.nautilus-ab-1.description-insanity-alt",
     "value": false
+  },
+  "dlc2-nipponitesSeparator": {
+    "type": "separator",
+    "title": "Items:item.nipponites.name"
   },
   "nipponites": {
     "type": "toggle",
@@ -1218,11 +1584,9 @@
     "tooltip": "Items:item.nipponites-ab-1.description",
     "value": false
   },
-  "oarfish-ab-1": {
-    "type": "toggle",
-    "title": "Items:item.oarfish-ab-1.name",
-    "tooltip": "Items:item.oarfish-ab-1.description",
-    "value": false
+  "dlc2-opabiniaSeparator": {
+    "type": "separator",
+    "title": "Items:item.opabinia.name"
   },
   "opabinia": {
     "type": "toggle",
@@ -1236,6 +1600,10 @@
     "tooltip": "Items:item.opabinia-ab-1.description",
     "value": false
   },
+  "dlc2-osteostracanSeparator": {
+    "type": "separator",
+    "title": "Items:item.osteostracan.name"
+  },
   "osteostracan": {
     "type": "toggle",
     "title": "Items:item.osteostracan.name",
@@ -1247,6 +1615,10 @@
     "title": "Items:item.osteostracan-ab-1.name",
     "tooltip": "Items:item.osteostracan-ab-1.description",
     "value": false
+  },
+  "dlc2-paddlefishSeparator": {
+    "type": "separator",
+    "title": "Items:item.paddlefish.name"
   },
   "paddlefish": {
     "type": "toggle",
@@ -1260,6 +1632,10 @@
     "tooltip": "Items:item.paddlefish-ab-1.description",
     "value": false
   },
+  "dlc2-sawfishSeparator": {
+    "type": "separator",
+    "title": "Items:item.sawfish.name"
+  },
   "sawfish": {
     "type": "toggle",
     "title": "Items:item.sawfish.name",
@@ -1271,6 +1647,10 @@
     "title": "Items:item.sawfish-ab-1.name",
     "tooltip": "Items:item.sawfish-ab-1.description",
     "value": false
+  },
+  "dlc2-sea-cucumberSeparator": {
+    "type": "separator",
+    "title": "Items:item.sea-cucumber.name"
   },
   "sea-cucumber": {
     "type": "toggle",
@@ -1284,6 +1664,10 @@
     "tooltip": "Items:item.sea-cucumber-ab-1.description",
     "value": false
   },
+  "dlc2-sea-scorpionSeparator": {
+    "type": "separator",
+    "title": "Items:item.sea-scorpion.name"
+  },
   "sea-scorpion": {
     "type": "toggle",
     "title": "Items:item.sea-scorpion.name",
@@ -1295,6 +1679,10 @@
     "title": "Items:item.sea-scorpion-ab-1.name",
     "tooltip": "Items:item.sea-scorpion-ab-1.description",
     "value": false
+  },
+  "dlc2-sea-slugSeparator": {
+    "type": "separator",
+    "title": "Items:item.sea-slug.name"
   },
   "sea-slug": {
     "type": "toggle",
@@ -1308,6 +1696,10 @@
     "tooltip": "Items:item.sea-slug-ab-1.description",
     "value": false
   },
+  "dlc2-sollasinaSeparator": {
+    "type": "separator",
+    "title": "Items:item.sollasina.name"
+  },
   "sollasina": {
     "type": "toggle",
     "title": "Items:item.sollasina.name",
@@ -1319,6 +1711,10 @@
     "title": "Items:item.sollasina-ab-1.name",
     "tooltip": "Items:item.sollasina-ab-1.description",
     "value": false
+  },
+  "dlc2-swordfishSeparator": {
+    "type": "separator",
+    "title": "Items:item.swordfish.name"
   },
   "swordfish": {
     "type": "toggle",
@@ -1332,6 +1728,10 @@
     "tooltip": "Items:item.swordfish-ab-1.description",
     "value": false
   },
+  "dlc2-trilobiteSeparator": {
+    "type": "separator",
+    "title": "Items:item.trilobite.name"
+  },
   "trilobite": {
     "type": "toggle",
     "title": "Items:item.trilobite.name",
@@ -1343,6 +1743,10 @@
     "title": "Items:item.trilobite-ab-1.name",
     "tooltip": "Items:item.trilobite-ab-1.description",
     "value": false
+  },
+  "dlc2-tripod-spiderfishSeparator": {
+    "type": "separator",
+    "title": "Items:item.tripod-spiderfish.name"
   },
   "tripod-spiderfish": {
     "type": "toggle",
@@ -1356,6 +1760,10 @@
     "tooltip": "Items:item.tripod-spiderfish-ab-1.description",
     "value": false
   },
+  "dlc2-tullimonstrumSeparator": {
+    "type": "separator",
+    "title": "Items:item.tullimonstrum.name"
+  },
   "tullimonstrum": {
     "type": "toggle",
     "title": "Items:item.tullimonstrum.name",
@@ -1368,6 +1776,10 @@
     "tooltip": "Items:item.tullimonstrum-ab-1.description",
     "value": false
   },
+  "dlc2-vetulicoliaSeparator": {
+    "type": "separator",
+    "title": "Items:item.vetulicolia.name"
+  },
   "vetulicolia": {
     "type": "toggle",
     "title": "Items:item.vetulicolia.name",
@@ -1379,6 +1791,10 @@
     "title": "Items:item.vetulicolia-ab-1.name",
     "tooltip": "Items:item.vetulicolia-ab-1.description",
     "value": false
+  },
+  "dlc2-xiphactinusSeparator": {
+    "type": "separator",
+    "title": "Items:item.xiphactinus.name"
   },
   "xiphactinus": {
     "type": "toggle",
