@@ -84,12 +84,11 @@ namespace FishImageReplacer
             "giant-amphipod",
             "scarlet-prawn",
 
-            // Prehistoric arthropod-ish creatures
+            // Prehistoric arthropod / stem-arthropod creatures
             "trilobite",
             "sea-scorpion",
             "opabinia",
-            "kerygmachela",
-            "sollasina"
+            "kerygmachela"
         };
 
         private static readonly HashSet<string> DeepSeaCreatures = new()
@@ -105,7 +104,23 @@ namespace FishImageReplacer
             "lancetfish",
             "tripod-spiderfish",
             "goblin-shark",
-            "frilled-shark"
+            "frilled-shark",
+
+            "snailfish",
+            "giant-amphipod",
+            "ghost-shark",
+            "pale-skate",
+            "firefly-squid",
+            "scarlet-prawn",
+            "sleeper-shark",
+            "lizardfish",
+            "colossal-squid",
+            "abyssal-gar",
+            "coelacanth",
+            "oarfish",
+            "nautilus",
+            "squat-lobster",
+            "spider-crab"
         };
 
         private static readonly HashSet<string> PrehistoricCreatures = new()
@@ -124,7 +139,13 @@ namespace FishImageReplacer
             "trilobite",
             "tullimonstrum",
             "vetulicolia",
-            "xiphactinus"
+            "xiphactinus",
+
+            // Living fossils / ancient lineages
+            "horseshoe-crab",
+            "frilled-shark",
+            "sturgeon",
+            "gar"
         };
 
         private static readonly HashSet<string> Cephalopods = new()
@@ -132,35 +153,86 @@ namespace FishImageReplacer
             "squid",
             "colossal-squid",
             "firefly-squid",
-            "glowing-octopus"
+            "glowing-octopus",
+
+            "nautilus",
+            "nipponites"
         };
 
         private static readonly HashSet<string> LeggyCreatures = new()
         {
+            "crab",
+            "blue-crab",
             "decorator-crab",
-            "giant-amphipod",
+            "fiddler-crab",
+            "giant-mud-crab",
+            "rock-crab",
             "horseshoe-crab",
             "king-crab",
             "spider-crab",
-            "squat-lobster",
+
             "spiny-lobster",
+            "squat-lobster",
+            "scarlet-prawn",
+            "giant-amphipod",
+
+            // Ancient leggy weirdos
             "sea-scorpion",
-            "trilobite"
+            "trilobite",
+            "kerygmachela",
+            "sollasina"
         };
 
         private static readonly HashSet<string> TeethAndMouths = new()
         {
+            // Normal fish where the teeth are a defining feature
             "anglerfish",
             "fangtooth",
             "stoplight-loosejaw",
             "giant-dragonfish",
             "viperfish",
             "gulper-eel",
-            "nipponites",
             "goblin-shark",
             "frilled-shark",
-            "black-grouper",
-            "stonefish"
+            "snake-mackerel",
+            "barracuda",
+            "toothfish",
+            "wolffish",
+            "goliath-tigerfish",
+            "dunkleosteus",
+            "abyssal-gar",
+            "lancetfish",
+            "xiphactinus",
+            "lizardfish",
+            "stargazer",
+
+            // Aberrations specifically focused on mouths / teeth
+            "mackerel-ab-1",            // Grotesque Mackerel
+            "cod-ab-2",                 // Fanged Cod
+            "black-grouper-ab-1",       // Tusked Grouper
+            "cusk-eel-ab-1",            // Infernal Eel
+            "bronze-whaler-ab-1",       // Bloodskin Shark
+            "blacktip-reef-shark-ab-1", // Cleft-mouth Shark
+            "eel-ab-1",                 // Barbed Eel
+            "squid-ab-2",               // Snag Squid
+            "oceanic-perch-ab-1",       // Gnashing Perch
+            "viperfish-ab-1",           // Decrepit Viperfish
+            "nipponites-ab-1",          // Wretched Nipper
+            "gar-ab-2",                 // Grinning Gar
+            "moonfish-ab-2",            // Beaked Moonfish
+            "vetulicolia-ab-1",         // Unveiled Vetulicolia
+            "tullimonstrum-ab-1",       // Axial Matron
+            "ghost-shark-ab-1",         // Rapt Shark
+            "goblin-shark-ab-1",        // Grisly Shark
+            "wolffish-ab-1",            // Hinged Wolffish
+            "arapaima-ab-1",            // Broken Arapaima
+            "dunkleosteus-ab-1",        // Excoriated Fiend
+            "pale-skate-ab-1",          // Defaced Skate
+            "longfin-eel-ab-1",         // Twinned Eels
+            "sergeant-fish-ab-1",       // Vortex Interloper
+            "glowing-octopus-ab-1",     // Medusa Octopus
+            "fiddler-crab-ab-1",        // Malignant Pincer
+            "swordfish-ab-1",           // Ivory Impaler
         };
 
         private static readonly HashSet<string> BorderlineMonster = new()
