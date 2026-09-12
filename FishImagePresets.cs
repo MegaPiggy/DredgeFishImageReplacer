@@ -228,16 +228,8 @@ public static class FishImagePresets
         "stonefish-ab-2"      // Enthralled Stonefish
     };
 
-    public static void Initialize()
+    public static void OnBuildModConfigMenu(ModsTab tab)
     {
-        DredgeEvent.OnBuildModConfigMenu += OnBuildModConfigMenu;
-    }
-
-    private static void OnBuildModConfigMenu(ModAssembly mod, ModsTab tab)
-    {
-        if (mod.GUID != Main.GUID)
-            return;
-
         var presetButtons = new[]
         {
             AddPresetButton(

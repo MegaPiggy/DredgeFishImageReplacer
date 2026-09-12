@@ -1,6 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Data.Common;
+using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
+using Winch.Components;
 using Winch.Util;
 
 namespace FishImageReplacer;
@@ -47,7 +54,7 @@ public static class FishImageReplacement
         string guid = Main.GUID.ToLowerInvariant();
 
         ReplacementSprite ??=
-            TextureUtil.GetSprite($"{guid}.replacement");
+            TextureUtil.GetSprite($"{guid}.default");
 
         Directory.CreateDirectory(TextureDirectory);
 
@@ -85,9 +92,17 @@ public static class FishImageReplacement
         }
     }
 
+    public static string GetReplacementTexturePath(FishItemData fish)
+    {
+        return Path.Combine(
+            TextureDirectory,
+            $"{Main.GUID.ToLowerInvariant()}.{GetReplacementTextureName(fish)}.png"
+        );
+    }
+
     private static string GetReplacementTextureName(FishItemData fish)
     {
-        string name = $"generated.{fish.id}";
+        string name = fish.id;//$"generated.{fish.id}";
 
         foreach (char invalid in Path.GetInvalidFileNameChars())
             name = name.Replace(invalid, '_');
@@ -479,5 +494,270 @@ public static class FishImageReplacement
     {
         return ReplaceableFish.ContainsKey(fishId) &&
                Main.ModConfig.GetProperty<bool>(fishId);
+    }
+
+    public static void OpenTextureDirectory()
+    {
+        Directory.CreateDirectory(TextureDirectory);
+        OpenPath(TextureDirectory);
+    }
+
+    public static void OpenTextureGuide()
+    {
+        if (!File.Exists(TextureGuidePath))
+            GenerateTextureGuide();
+
+        OpenPath(TextureGuidePath);
+    }
+
+    private static void OpenPath(string path)
+    {
+        try
+        {
+            switch (Application.platform)
+            {
+                case RuntimePlatform.WindowsPlayer:
+                    Process.Start(new ProcessStartInfo
+                    {
+                        FileName = path,
+                        UseShellExecute = true
+                    });
+                    break;
+
+                case RuntimePlatform.OSXPlayer:
+                    Process.Start("open", $"\"{path}\"");
+                    break;
+
+                default:
+                    Process.Start("xdg-open", $"\"{path}\"");
+                    break;
+            }
+        }
+        catch (Exception ex)
+        {
+            Winch.Core.WinchCore.Log.Error(
+                $"Could not open path '{path}': {ex}"
+            );
+        }
+    }
+
+    public static string TextureGuidePath =>
+        Path.Combine(TextureDirectory, "index.html");
+
+    public static string TextureMapPath =>
+        Path.Combine(TextureDirectory, "texture-map.json");
+
+    public static void GenerateTextureMap()
+    {
+        var map = ReplaceableFish.Values
+            .OrderBy(fish => fish.id)
+            .Select(fish =>
+            {
+                var sprite = OriginalSprites[fish.id];
+
+                UnityEngine.Localization.Locale locale = LocalizationSettings.AvailableLocales.Locales.Find((UnityEngine.Localization.Locale l) => l.Identifier.Code == "en");
+
+
+                return new TextureMapEntry
+                {
+                    englishName = LocalizationSettings.StringDatabase.GetLocalizedString(fish.itemNameKey.TableReference, fish.itemNameKey.TableEntryReference, locale, FallbackBehavior.UseProjectSettings),
+                    itemId = fish.id,
+
+                    aberrationOf =
+                        fish.IsAberration &&
+                        fish.NonAberrationParent != null
+                            ? fish.NonAberrationParent.id
+                            : null,
+
+                    sourceTexture = sprite?.texture?.name,
+
+                    replacementFile =
+                        Path.GetFileName(
+                            GetReplacementTexturePath(fish)
+                        )
+                };
+            }).ToArray();
+
+        File.WriteAllText(
+            TextureMapPath,
+            Newtonsoft.Json.JsonConvert.SerializeObject(
+                map,
+                Newtonsoft.Json.Formatting.Indented
+            )
+        );
+    }
+
+    [Serializable]
+    public class TextureMapEntry
+    {
+        public string itemId;
+        public string englishName;
+        public string aberrationOf;
+        public string sourceTexture;
+        public string replacementFile;
+    }
+
+    public static void GenerateTextureGuide()
+    {
+        var html = new System.Text.StringBuilder();
+
+        html.AppendLine("""
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Fish Image Replacer - Replacement Textures</title>
+            <style>
+                body {
+                    background: #111;
+                    color: #eee;
+                    font-family: sans-serif;
+                    margin: 32px;
+                }
+
+                h1 {
+                    margin-bottom: 24px;
+                }
+
+                .grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+                    gap: 16px;
+                }
+
+                .fish {
+                    background: #1c1c1c;
+                    border: 1px solid #333;
+                    border-radius: 8px;
+                    padding: 16px;
+                }
+
+                .fish img {
+                    display: block;
+                    max-width: 100%;
+                    max-height: 180px;
+                    margin: 0 auto 16px;
+                    image-rendering: pixelated;
+                }
+
+                .name {
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 12px;
+                }
+
+                .info {
+                    font-family: monospace;
+                    font-size: 13px;
+                    line-height: 1.6;
+                    overflow-wrap: anywhere;
+                }
+
+                .label {
+                    color: #999;
+                }
+            </style>
+        </head>
+        <body>
+        <h1>Fish Image Replacer</h1>
+        <div class="grid">
+        """);
+
+        foreach (var fish in ReplaceableFish.Values.OrderBy(fish => fish.id))
+        {
+            if (!OriginalSprites.TryGetValue(fish.id, out var original))
+                continue;
+
+            string fileName = Path.GetFileName(
+                GetReplacementTexturePath(fish)
+            );
+
+            string parent = fish.IsAberration &&
+                            fish.NonAberrationParent != null
+                ? fish.NonAberrationParent.id
+                : null;
+
+            html.AppendLine("<div class=\"fish\">");
+
+            html.AppendLine(
+                $"<img src=\"{EscapeHtml(fileName)}\">"
+            );
+
+            html.AppendLine(
+                $"<div class=\"name\">{EscapeHtml(fish.id)}</div>"
+            );
+
+            html.AppendLine("<div class=\"info\">");
+
+            html.AppendLine(
+                $"<div><span class=\"label\">Item ID:</span> {EscapeHtml(fish.id)}</div>"
+            );
+
+            if (parent != null)
+            {
+                html.AppendLine(
+                    $"<div><span class=\"label\">Aberration Of:</span> {EscapeHtml(parent)}</div>"
+                );
+            }
+
+            html.AppendLine(
+                $"<div><span class=\"label\">Source Sprite:</span> {EscapeHtml(original.name)}</div>"
+            );
+
+            if (original.texture != null)
+            {
+                html.AppendLine(
+                    $"<div><span class=\"label\">Source Texture:</span> {EscapeHtml(original.texture.name)}</div>"
+                );
+            }
+
+            html.AppendLine(
+                $"<div><span class=\"label\">Replacement:</span> {EscapeHtml(fileName)}</div>"
+            );
+
+            html.AppendLine("</div>");
+            html.AppendLine("</div>");
+        }
+
+        html.AppendLine("""
+        </div>
+        </body>
+        </html>
+        """);
+
+        File.WriteAllText(
+            TextureGuidePath,
+            html.ToString()
+        );
+    }
+
+    private static string EscapeHtml(string value)
+    {
+        if (string.IsNullOrEmpty(value))
+            return string.Empty;
+
+        return value
+            .Replace("&", "&amp;")
+            .Replace("<", "&lt;")
+            .Replace(">", "&gt;")
+            .Replace("\"", "&quot;");
+    }
+
+    public static void OnBuildModConfigMenu(ModsTab tab)
+    {
+        var utilityButtons = new[]
+        {
+            tab.AddOptionButtonLocalized(
+                "OpenTextureFolder",
+                "megapiggy.fishimagereplacer.config.openfolder",
+                "megapiggy.fishimagereplacer.config.openfolder.tooltip",
+                OpenTextureDirectory
+            )
+        };
+
+        tab.MoveOptionsToStart(
+            utilityButtons
+                .ToArray()
+        );
     }
 }

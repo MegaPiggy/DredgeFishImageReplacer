@@ -1,4 +1,7 @@
 {
+  "megapiggy.fishimagereplacer.config.openfolder": "Open Texture Folder",
+  "megapiggy.fishimagereplacer.config.openfolder.tooltip": "Opens the folder containing the replacement textures.",
+
   "megapiggy.fishimagereplacer.config.preset.none": "None",
   "megapiggy.fishimagereplacer.config.preset.none.tooltip": "Disables image replacement for all creatures.",
 

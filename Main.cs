@@ -46,8 +46,17 @@ namespace FishImageReplacer
             GameManager.Instance.OnGameEnded += OnGameEnded;
 
             // Config
-            FishImagePresets.Initialize();
+            DredgeEvent.OnBuildModConfigMenu += OnBuildModConfigMenu;
             ModConfig.OnConfigValueChanged += ModConfig_OnConfigValueChanged;
+        }
+
+        private static void OnBuildModConfigMenu(ModAssembly mod, ModsTab tab)
+        {
+            if (mod.GUID != Main.GUID)
+                return;
+
+            FishImagePresets.OnBuildModConfigMenu(tab);
+            FishImageReplacement.OnBuildModConfigMenu(tab);
         }
 
         private static void OnGameLoaded()
@@ -60,6 +69,9 @@ namespace FishImageReplacer
             if (Debug)
             {
                 DefaultConfigGenerator.Generate(Path.Combine(BasePath, "default_config.json"));
+
+                FishImageReplacement.GenerateTextureMap();
+                FishImageReplacement.GenerateTextureGuide();
             }
         }
 
