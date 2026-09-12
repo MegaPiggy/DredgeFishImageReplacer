@@ -1,6 +1,14 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Data.Common;
+using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
+using Winch.Components;
+using Winch.Components.UI;
 using Winch.Util;
 
 namespace FishImageReplacer;
@@ -47,7 +55,7 @@ public static class FishImageReplacement
         string guid = Main.GUID.ToLowerInvariant();
 
         ReplacementSprite ??=
-            TextureUtil.GetSprite($"{guid}.replacement");
+            TextureUtil.GetSprite($"{guid}.default");
 
         Directory.CreateDirectory(TextureDirectory);
 
@@ -85,9 +93,17 @@ public static class FishImageReplacement
         }
     }
 
+    public static string GetReplacementTexturePath(FishItemData fish)
+    {
+        return Path.Combine(
+            TextureDirectory,
+            $"{Main.GUID.ToLowerInvariant()}.{GetReplacementTextureName(fish)}.png"
+        );
+    }
+
     private static string GetReplacementTextureName(FishItemData fish)
     {
-        string name = $"generated.{fish.id}";
+        string name = fish.id;//$"generated.{fish.id}";
 
         foreach (char invalid in Path.GetInvalidFileNameChars())
             name = name.Replace(invalid, '_');
@@ -479,5 +495,226 @@ public static class FishImageReplacement
     {
         return ReplaceableFish.ContainsKey(fishId) &&
                Main.ModConfig.GetProperty<bool>(fishId);
+    }
+
+    public static void OpenTextureDirectory()
+    {
+        Directory.CreateDirectory(TextureDirectory);
+        OpenPath(TextureDirectory);
+    }
+
+    private static void OpenPath(string path)
+    {
+        try
+        {
+            switch (Application.platform)
+            {
+                case RuntimePlatform.WindowsPlayer:
+                    Process.Start(new ProcessStartInfo
+                    {
+                        FileName = path,
+                        UseShellExecute = true
+                    });
+                    break;
+
+                case RuntimePlatform.OSXPlayer:
+                    Process.Start("open", $"\"{path}\"");
+                    break;
+
+                default:
+                    Process.Start("xdg-open", $"\"{path}\"");
+                    break;
+            }
+        }
+        catch (Exception ex)
+        {
+            Winch.Core.WinchCore.Log.Error(
+                $"Could not open path '{path}': {ex}"
+            );
+        }
+    }
+
+    public static string TextureMapPath =>
+        Path.Combine(Main.BasePath, "texture-map.json");
+
+    private static TextureMapEntry[] TextureMapEntries;
+
+    public static TextureMapEntry[] GetTextureMapEntries()
+    {
+        if (TextureMapEntries != null)
+            return TextureMapEntries;
+
+        if (!File.Exists(TextureMapPath))
+            return Array.Empty<TextureMapEntry>();
+
+        TextureMapEntries =
+            Newtonsoft.Json.JsonConvert.DeserializeObject<TextureMapEntry[]>(
+                File.ReadAllText(TextureMapPath)
+            ) ?? Array.Empty<TextureMapEntry>();
+
+        return TextureMapEntries;
+    }
+
+    public static void GenerateTextureMap()
+    {
+        var map = ReplaceableFish.Values
+            .OrderBy(fish => fish.id)
+            .Select(CreateTextureMapEntry)
+            .ToArray();
+
+        File.WriteAllText(
+            TextureMapPath,
+            Newtonsoft.Json.JsonConvert.SerializeObject(
+                map,
+                Newtonsoft.Json.Formatting.Indented
+            )
+        );
+    }
+
+    [Serializable]
+    public class TextureMapEntry
+    {
+        public string itemId;
+        public LocalizedString localizedNameKey;
+        public string localizedName => GetCurrentString(localizedNameKey);
+        public string englishName => GetEnglishString(localizedNameKey);
+        public string aberrationOf;
+        public string replacementFile;
+    }
+
+    private static TextureMapEntry CreateTextureMapEntry(
+        FishItemData fish)
+    {
+        var sprite = OriginalSprites[fish.id];
+
+        return new TextureMapEntry
+        {
+            localizedNameKey = PreferLocalizedString(
+                fish.itemInsaneTitleKey,
+                fish.itemNameKey
+            ),
+            itemId = fish.id,
+
+            aberrationOf =
+                fish.IsAberration &&
+                fish.NonAberrationParent != null
+                    ? fish.NonAberrationParent.id
+                    : null,
+
+            //sourceTexture = sprite?.texture?.name,
+
+            replacementFile =
+                Path.GetFileName(
+                    GetReplacementTexturePath(fish)
+                )
+        };
+    }
+
+    private static LocalizedString PreferLocalizedString(
+        LocalizedString preferred,
+        LocalizedString fallback)
+    {
+        return preferred != null && !preferred.IsEmpty
+            ? preferred
+            : fallback;
+    }
+
+    private static Locale English => 
+        LocalizationSettings.AvailableLocales.Locales.Find(
+            locale =>
+                locale.Identifier.Code == "en"
+        );
+
+    private static string GetEnglishString(LocalizedString key) =>
+        GetStringFromLocale(key, English);
+
+    private static string GetCurrentString(LocalizedString key) =>
+        GetStringFromLocale(key, null);
+
+    private static string GetStringFromLocale(LocalizedString key, Locale locale)
+    {
+        return LocalizationSettings.StringDatabase
+            .GetLocalizedString(
+                key.TableReference,
+                key.TableEntryReference,
+                locale,
+                FallbackBehavior.UseProjectSettings
+            );
+    }
+
+    public static void ReloadTextures()
+    {
+        string guid = Main.GUID.ToLowerInvariant();
+
+        foreach (var fish in ReplaceableFish.Values)
+        {
+            string textureName = GetReplacementTextureName(fish);
+            string key = $"{guid}.{textureName}";
+
+            TextureUtil.ReloadTexture(key);
+
+            ReplacementSprites[fish.id] =
+                TextureUtil.GetSprite(key);
+
+            ApplyReplacement(fish.id);
+        }
+    }
+
+    public static Sprite GetReplacementSprite(string fishId)
+    {
+        if (ReplacementSprites.TryGetValue(fishId, out var sprite) &&
+            sprite != null)
+        {
+            return sprite;
+        }
+
+        var entry = GetTextureMapEntries()
+            .FirstOrDefault(entry => entry.itemId == fishId);
+
+        if (entry == null ||
+            string.IsNullOrWhiteSpace(entry.replacementFile))
+        {
+            return null;
+        }
+
+        string key =
+            Path.GetFileNameWithoutExtension(entry.replacementFile);
+
+        sprite = TextureUtil.GetSprite(key);
+
+        if (sprite != null)
+            ReplacementSprites[fishId] = sprite;
+
+        return sprite;
+    }
+
+    public static void OnBuildModConfigMenu(ModsTab tab)
+    {
+        var utilityButtons = new[]
+        {
+            tab.AddOptionButtonLocalized(
+                "OpenImageMenu",
+                "megapiggy.fishimagereplacer.config.openimagemenu",
+                "megapiggy.fishimagereplacer.config.openimagemenu.tooltip",
+                FishImageGuideScreen.Show
+            ),
+            tab.AddOptionButtonLocalized(
+                "ReloadTextures",
+                "megapiggy.fishimagereplacer.config.reloadtextures",
+                "megapiggy.fishimagereplacer.config.reloadtextures.tooltip",
+                ReloadTextures
+            ),
+            tab.AddOptionButtonLocalized(
+                "OpenTextureFolder",
+                "megapiggy.fishimagereplacer.config.openfolder",
+                "megapiggy.fishimagereplacer.config.openfolder.tooltip",
+                OpenTextureDirectory
+            )
+        };
+
+        tab.MoveOptionsToStart(
+            utilityButtons
+                .ToArray()
+        );
     }
 }

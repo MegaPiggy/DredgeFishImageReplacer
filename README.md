@@ -59,9 +59,9 @@ Assets/Textures/
 Generated replacement images are named after their fish ID, for example:
 
 ```text
-megapiggy.fishimagereplacer.generated.cod.png
-megapiggy.fishimagereplacer.generated.anglerfish.png
-megapiggy.fishimagereplacer.generated.cod-ab-1.png
+megapiggy.fishimagereplacer.cod.png
+megapiggy.fishimagereplacer.anglerfish.png
+megapiggy.fishimagereplacer.cod-ab-1.png
 ```
 
 Aberrations use their own fish IDs, such as `cod-ab-1`, so their replacement images can be customized separately from the normal fish.

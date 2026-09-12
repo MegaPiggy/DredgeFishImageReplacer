@@ -18,7 +18,7 @@
 
     <PropertyGroup>
       <ModMetaJson>@(ModMetaLines, '')</ModMetaJson>
-      <Version>$([System.Text.RegularExpressions.Regex]::Match('$(ModMetaJson)', '&quot;Version&quot;\s*:\s*&quot;([^&quot;]+)&quot;').Groups[1].Value)</Version>
+      <Version>$([System.Text.RegularExpressions.Regex]::Match('$(ModMetaJson)', '"Version"\s*:\s*"([^"]+)"').Groups[1].Value)</Version>
     </PropertyGroup>
   </Target>
 
@@ -35,6 +35,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="mod_meta.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="texture-map.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Assets\**\*.*">

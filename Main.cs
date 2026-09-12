@@ -8,6 +8,7 @@ using System.Reflection;
 using UnityEngine;
 using UnityEngine.XR;
 using Winch.Components;
+using Winch.Components.UI;
 using Winch.Config;
 using Winch.Core;
 using Winch.Core.API;
@@ -46,8 +47,19 @@ namespace FishImageReplacer
             GameManager.Instance.OnGameEnded += OnGameEnded;
 
             // Config
-            FishImagePresets.Initialize();
+            DredgeEvent.OnBuildModConfigMenu += OnBuildModConfigMenu;
             ModConfig.OnConfigValueChanged += ModConfig_OnConfigValueChanged;
+
+            FishImageGuideScreen.Initialize();
+        }
+
+        private static void OnBuildModConfigMenu(ModAssembly mod, ModsTab tab)
+        {
+            if (mod.GUID != Main.GUID)
+                return;
+
+            FishImagePresets.OnBuildModConfigMenu(tab);
+            FishImageReplacement.OnBuildModConfigMenu(tab);
         }
 
         private static void OnGameLoaded()
@@ -60,6 +72,7 @@ namespace FishImageReplacer
             if (Debug)
             {
                 DefaultConfigGenerator.Generate(Path.Combine(BasePath, "default_config.json"));
+                FishImageReplacement.GenerateTextureMap();
             }
         }
 

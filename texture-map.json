@@ -1,0 +1,1278 @@
+[
+  {
+    "itemId": "abyssal-gar",
+    "localizedNameKey": "Items:item.abyssal-gar.name",
+    "replacementFile": "megapiggy.fishimagereplacer.abyssal-gar.png"
+  },
+  {
+    "itemId": "abyssal-gar-ab-1",
+    "localizedNameKey": "Items:item.abyssal-gar-ab-1.name",
+    "aberrationOf": "abyssal-gar",
+    "replacementFile": "megapiggy.fishimagereplacer.abyssal-gar-ab-1.png"
+  },
+  {
+    "itemId": "anchovy",
+    "localizedNameKey": "Items:item.anchovy.name",
+    "replacementFile": "megapiggy.fishimagereplacer.anchovy.png"
+  },
+  {
+    "itemId": "anchovy-ab-1",
+    "localizedNameKey": "Items:item.anchovy-ab-1.name",
+    "aberrationOf": "anchovy",
+    "replacementFile": "megapiggy.fishimagereplacer.anchovy-ab-1.png"
+  },
+  {
+    "itemId": "anglerfish",
+    "localizedNameKey": "Items:item.anglerfish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.anglerfish.png"
+  },
+  {
+    "itemId": "anglerfish-ab-1",
+    "localizedNameKey": "Items:item.anglerfish-ab-1.name",
+    "aberrationOf": "anglerfish",
+    "replacementFile": "megapiggy.fishimagereplacer.anglerfish-ab-1.png"
+  },
+  {
+    "itemId": "arapaima",
+    "localizedNameKey": "Items:item.arapaima.name",
+    "replacementFile": "megapiggy.fishimagereplacer.arapaima.png"
+  },
+  {
+    "itemId": "arapaima-ab-1",
+    "localizedNameKey": "Items:item.arapaima-ab-1.name",
+    "aberrationOf": "arapaima",
+    "replacementFile": "megapiggy.fishimagereplacer.arapaima-ab-1.png"
+  },
+  {
+    "itemId": "aurora-jellyfish",
+    "localizedNameKey": "Items:item.aurora-jellyfish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.aurora-jellyfish.png"
+  },
+  {
+    "itemId": "aurora-jellyfish-ab-1",
+    "localizedNameKey": "Items:item.aurora-jellyfish-ab-1.name",
+    "aberrationOf": "aurora-jellyfish",
+    "replacementFile": "megapiggy.fishimagereplacer.aurora-jellyfish-ab-1.png"
+  },
+  {
+    "itemId": "barracuda",
+    "localizedNameKey": "Items:item.barracuda.name",
+    "replacementFile": "megapiggy.fishimagereplacer.barracuda.png"
+  },
+  {
+    "itemId": "barracuda-ab-1",
+    "localizedNameKey": "Items:item.barracuda-ab-1.name",
+    "aberrationOf": "barracuda",
+    "replacementFile": "megapiggy.fishimagereplacer.barracuda-ab-1.png"
+  },
+  {
+    "itemId": "barracuda-ab-2",
+    "localizedNameKey": "Items:item.barracuda-ab-2.name",
+    "aberrationOf": "barracuda",
+    "replacementFile": "megapiggy.fishimagereplacer.barracuda-ab-2.png"
+  },
+  {
+    "itemId": "barreleye",
+    "localizedNameKey": "Items:item.barreleye.name",
+    "replacementFile": "megapiggy.fishimagereplacer.barreleye.png"
+  },
+  {
+    "itemId": "barreleye-ab-1",
+    "localizedNameKey": "Items:item.barreleye-ab-1.name",
+    "aberrationOf": "barreleye",
+    "replacementFile": "megapiggy.fishimagereplacer.barreleye-ab-1.png"
+  },
+  {
+    "itemId": "blackfin-tuna",
+    "localizedNameKey": "Items:item.blackfin-tuna.name",
+    "replacementFile": "megapiggy.fishimagereplacer.blackfin-tuna.png"
+  },
+  {
+    "itemId": "blackfin-tuna-ab-1",
+    "localizedNameKey": "Items:item.blackfin-tuna-ab-1.name",
+    "aberrationOf": "blackfin-tuna",
+    "replacementFile": "megapiggy.fishimagereplacer.blackfin-tuna-ab-1.png"
+  },
+  {
+    "itemId": "black-grouper",
+    "localizedNameKey": "Items:item.black-grouper.name",
+    "replacementFile": "megapiggy.fishimagereplacer.black-grouper.png"
+  },
+  {
+    "itemId": "black-grouper-ab-1",
+    "localizedNameKey": "Items:item.black-grouper-ab-1.name",
+    "aberrationOf": "black-grouper",
+    "replacementFile": "megapiggy.fishimagereplacer.black-grouper-ab-1.png"
+  },
+  {
+    "itemId": "black-grouper-ab-2",
+    "localizedNameKey": "Items:item.black-grouper-ab-2.name",
+    "aberrationOf": "black-grouper",
+    "replacementFile": "megapiggy.fishimagereplacer.black-grouper-ab-2.png"
+  },
+  {
+    "itemId": "blackmouth-salmon",
+    "localizedNameKey": "Items:item.blackmouth-salmon.name",
+    "replacementFile": "megapiggy.fishimagereplacer.blackmouth-salmon.png"
+  },
+  {
+    "itemId": "blackmouth-salmon-ab-1",
+    "localizedNameKey": "Items:item.blackmouth-salmon-ab-1.name",
+    "aberrationOf": "blackmouth-salmon",
+    "replacementFile": "megapiggy.fishimagereplacer.blackmouth-salmon-ab-1.png"
+  },
+  {
+    "itemId": "black-sea-bass",
+    "localizedNameKey": "Items:item.black-sea-bass.name",
+    "replacementFile": "megapiggy.fishimagereplacer.black-sea-bass.png"
+  },
+  {
+    "itemId": "black-sea-bass-ab-1",
+    "localizedNameKey": "Items:item.black-sea-bass-ab-1.name",
+    "aberrationOf": "black-sea-bass",
+    "replacementFile": "megapiggy.fishimagereplacer.black-sea-bass-ab-1.png"
+  },
+  {
+    "itemId": "blacktip-reef-shark",
+    "localizedNameKey": "Items:item.blacktip-reef-shark.name",
+    "replacementFile": "megapiggy.fishimagereplacer.blacktip-reef-shark.png"
+  },
+  {
+    "itemId": "blacktip-reef-shark-ab-1",
+    "localizedNameKey": "Items:item.blacktip-reef-shark-ab-1.name",
+    "aberrationOf": "blacktip-reef-shark",
+    "replacementFile": "megapiggy.fishimagereplacer.blacktip-reef-shark-ab-1.png"
+  },
+  {
+    "itemId": "blue-crab",
+    "localizedNameKey": "Items:item.blue-crab.name",
+    "replacementFile": "megapiggy.fishimagereplacer.blue-crab.png"
+  },
+  {
+    "itemId": "blue-crab-ab-1",
+    "localizedNameKey": "Items:item.blue-crab-ab-1.name",
+    "aberrationOf": "blue-crab",
+    "replacementFile": "megapiggy.fishimagereplacer.blue-crab-ab-1.png"
+  },
+  {
+    "itemId": "boreaspis",
+    "localizedNameKey": "Items:item.boreaspis.name",
+    "replacementFile": "megapiggy.fishimagereplacer.boreaspis.png"
+  },
+  {
+    "itemId": "boreaspis-ab-1",
+    "localizedNameKey": "Items:item.boreaspis-ab-1.name",
+    "aberrationOf": "boreaspis",
+    "replacementFile": "megapiggy.fishimagereplacer.boreaspis-ab-1.png"
+  },
+  {
+    "itemId": "bronze-whaler",
+    "localizedNameKey": "Items:item.bronze-whaler.name",
+    "replacementFile": "megapiggy.fishimagereplacer.bronze-whaler.png"
+  },
+  {
+    "itemId": "bronze-whaler-ab-1",
+    "localizedNameKey": "Items:item.bronze-whaler-ab-1.name",
+    "aberrationOf": "bronze-whaler",
+    "replacementFile": "megapiggy.fishimagereplacer.bronze-whaler-ab-1.png"
+  },
+  {
+    "itemId": "catfish",
+    "localizedNameKey": "Items:item.catfish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.catfish.png"
+  },
+  {
+    "itemId": "catfish-ab-1",
+    "localizedNameKey": "Items:item.catfish-ab-1.name",
+    "aberrationOf": "catfish",
+    "replacementFile": "megapiggy.fishimagereplacer.catfish-ab-1.png"
+  },
+  {
+    "itemId": "char",
+    "localizedNameKey": "Items:item.char.name",
+    "replacementFile": "megapiggy.fishimagereplacer.char.png"
+  },
+  {
+    "itemId": "char-ab-1",
+    "localizedNameKey": "Items:item.char-ab-1.name",
+    "aberrationOf": "char",
+    "replacementFile": "megapiggy.fishimagereplacer.char-ab-1.png"
+  },
+  {
+    "itemId": "cod",
+    "localizedNameKey": "Items:item.cod.name",
+    "replacementFile": "megapiggy.fishimagereplacer.cod.png"
+  },
+  {
+    "itemId": "cod-ab-1",
+    "localizedNameKey": "Items:item.cod-ab-1.name",
+    "aberrationOf": "cod",
+    "replacementFile": "megapiggy.fishimagereplacer.cod-ab-1.png"
+  },
+  {
+    "itemId": "cod-ab-2",
+    "localizedNameKey": "Items:item.cod-ab-2.name",
+    "aberrationOf": "cod",
+    "replacementFile": "megapiggy.fishimagereplacer.cod-ab-2.png"
+  },
+  {
+    "itemId": "cod-ab-3",
+    "localizedNameKey": "Items:item.cod-ab-3.name",
+    "aberrationOf": "cod",
+    "replacementFile": "megapiggy.fishimagereplacer.cod-ab-3.png"
+  },
+  {
+    "itemId": "coelacanth",
+    "localizedNameKey": "Items:item.coelacanth.name",
+    "replacementFile": "megapiggy.fishimagereplacer.coelacanth.png"
+  },
+  {
+    "itemId": "coelacanth-ab-1",
+    "localizedNameKey": "Items:item.coelacanth-ab-1.name",
+    "aberrationOf": "coelacanth",
+    "replacementFile": "megapiggy.fishimagereplacer.coelacanth-ab-1.png"
+  },
+  {
+    "itemId": "colossal-squid",
+    "localizedNameKey": "Items:item.colossal-squid.name",
+    "replacementFile": "megapiggy.fishimagereplacer.colossal-squid.png"
+  },
+  {
+    "itemId": "colossal-squid-ab-1",
+    "localizedNameKey": "Items:item.colossal-squid-ab-1.name",
+    "aberrationOf": "colossal-squid",
+    "replacementFile": "megapiggy.fishimagereplacer.colossal-squid-ab-1.png"
+  },
+  {
+    "itemId": "conger-eel",
+    "localizedNameKey": "Items:item.conger-eel.name",
+    "replacementFile": "megapiggy.fishimagereplacer.conger-eel.png"
+  },
+  {
+    "itemId": "conger-eel-ab-1",
+    "localizedNameKey": "Items:item.conger-eel-ab-1.name",
+    "aberrationOf": "conger-eel",
+    "replacementFile": "megapiggy.fishimagereplacer.conger-eel-ab-1.png"
+  },
+  {
+    "itemId": "coral-grouper",
+    "localizedNameKey": "Items:item.coral-grouper.name",
+    "replacementFile": "megapiggy.fishimagereplacer.coral-grouper.png"
+  },
+  {
+    "itemId": "coral-grouper-ab-1",
+    "localizedNameKey": "Items:item.coral-grouper-ab-1.name",
+    "aberrationOf": "coral-grouper",
+    "replacementFile": "megapiggy.fishimagereplacer.coral-grouper-ab-1.png"
+  },
+  {
+    "itemId": "crab",
+    "localizedNameKey": "Items:item.crab.name",
+    "replacementFile": "megapiggy.fishimagereplacer.crab.png"
+  },
+  {
+    "itemId": "crab-ab-1",
+    "localizedNameKey": "Items:item.crab-ab-1.name",
+    "aberrationOf": "crab",
+    "replacementFile": "megapiggy.fishimagereplacer.crab-ab-1.png"
+  },
+  {
+    "itemId": "crown-of-thorns",
+    "localizedNameKey": "Items:item.crown-of-thorns.name",
+    "replacementFile": "megapiggy.fishimagereplacer.crown-of-thorns.png"
+  },
+  {
+    "itemId": "crown-of-thorns-ab-1",
+    "localizedNameKey": "Items:item.crown-of-thorns-ab-1.name",
+    "aberrationOf": "crown-of-thorns",
+    "replacementFile": "megapiggy.fishimagereplacer.crown-of-thorns-ab-1.png"
+  },
+  {
+    "itemId": "cusk-eel",
+    "localizedNameKey": "Items:item.cusk-eel.name",
+    "replacementFile": "megapiggy.fishimagereplacer.cusk-eel.png"
+  },
+  {
+    "itemId": "cusk-eel-ab-1",
+    "localizedNameKey": "Items:item.cusk-eel-ab-1.name",
+    "aberrationOf": "cusk-eel",
+    "replacementFile": "megapiggy.fishimagereplacer.cusk-eel-ab-1.png"
+  },
+  {
+    "itemId": "decorator-crab",
+    "localizedNameKey": "Items:item.decorator-crab.name",
+    "replacementFile": "megapiggy.fishimagereplacer.decorator-crab.png"
+  },
+  {
+    "itemId": "decorator-crab-ab-1",
+    "localizedNameKey": "Items:item.decorator-crab-ab-1.name",
+    "aberrationOf": "decorator-crab",
+    "replacementFile": "megapiggy.fishimagereplacer.decorator-crab-ab-1.png"
+  },
+  {
+    "itemId": "deep-form-ab-1",
+    "localizedNameKey": "Items:item.deep-form-ab-1.name-alt",
+    "replacementFile": "megapiggy.fishimagereplacer.deep-form-ab-1.png"
+  },
+  {
+    "itemId": "devil-ray",
+    "localizedNameKey": "Items:item.devil-ray.name",
+    "replacementFile": "megapiggy.fishimagereplacer.devil-ray.png"
+  },
+  {
+    "itemId": "devil-ray-ab-1",
+    "localizedNameKey": "Items:item.devil-ray-ab-1.name",
+    "aberrationOf": "devil-ray",
+    "replacementFile": "megapiggy.fishimagereplacer.devil-ray-ab-1.png"
+  },
+  {
+    "itemId": "dunkleosteus",
+    "localizedNameKey": "Items:item.dunkleosteus.name",
+    "replacementFile": "megapiggy.fishimagereplacer.dunkleosteus.png"
+  },
+  {
+    "itemId": "dunkleosteus-ab-1",
+    "localizedNameKey": "Items:item.dunkleosteus-ab-1.name",
+    "aberrationOf": "dunkleosteus",
+    "replacementFile": "megapiggy.fishimagereplacer.dunkleosteus-ab-1.png"
+  },
+  {
+    "itemId": "eagle-shark",
+    "localizedNameKey": "Items:item.eagle-shark.name",
+    "replacementFile": "megapiggy.fishimagereplacer.eagle-shark.png"
+  },
+  {
+    "itemId": "eagle-shark-ab-1",
+    "localizedNameKey": "Items:item.eagle-shark-ab-1.name",
+    "aberrationOf": "eagle-shark",
+    "replacementFile": "megapiggy.fishimagereplacer.eagle-shark-ab-1.png"
+  },
+  {
+    "itemId": "eel",
+    "localizedNameKey": "Items:item.eel.name",
+    "replacementFile": "megapiggy.fishimagereplacer.eel.png"
+  },
+  {
+    "itemId": "eel-ab-1",
+    "localizedNameKey": "Items:item.eel-ab-1.name",
+    "aberrationOf": "eel",
+    "replacementFile": "megapiggy.fishimagereplacer.eel-ab-1.png"
+  },
+  {
+    "itemId": "eel-ab-2",
+    "localizedNameKey": "Items:item.eel-ab-2.name",
+    "aberrationOf": "eel",
+    "replacementFile": "megapiggy.fishimagereplacer.eel-ab-2.png"
+  },
+  {
+    "itemId": "fangtooth",
+    "localizedNameKey": "Items:item.fangtooth.name",
+    "replacementFile": "megapiggy.fishimagereplacer.fangtooth.png"
+  },
+  {
+    "itemId": "fangtooth-ab-1",
+    "localizedNameKey": "Items:item.fangtooth-ab-1.name",
+    "aberrationOf": "fangtooth",
+    "replacementFile": "megapiggy.fishimagereplacer.fangtooth-ab-1.png"
+  },
+  {
+    "itemId": "fiddler-crab",
+    "localizedNameKey": "Items:item.fiddler-crab.name",
+    "replacementFile": "megapiggy.fishimagereplacer.fiddler-crab.png"
+  },
+  {
+    "itemId": "fiddler-crab-ab-1",
+    "localizedNameKey": "Items:item.fiddler-crab-ab-1.name",
+    "aberrationOf": "fiddler-crab",
+    "replacementFile": "megapiggy.fishimagereplacer.fiddler-crab-ab-1.png"
+  },
+  {
+    "itemId": "firefly-squid",
+    "localizedNameKey": "Items:item.firefly-squid.name",
+    "replacementFile": "megapiggy.fishimagereplacer.firefly-squid.png"
+  },
+  {
+    "itemId": "firefly-squid-ab-1",
+    "localizedNameKey": "Items:item.firefly-squid-ab-1.name",
+    "aberrationOf": "firefly-squid",
+    "replacementFile": "megapiggy.fishimagereplacer.firefly-squid-ab-1.png"
+  },
+  {
+    "itemId": "flounder",
+    "localizedNameKey": "Items:item.flounder.name",
+    "replacementFile": "megapiggy.fishimagereplacer.flounder.png"
+  },
+  {
+    "itemId": "flounder-ab-1",
+    "localizedNameKey": "Items:item.flounder-ab-1.name",
+    "aberrationOf": "flounder",
+    "replacementFile": "megapiggy.fishimagereplacer.flounder-ab-1.png"
+  },
+  {
+    "itemId": "flounder-ab-2",
+    "localizedNameKey": "Items:item.flounder-ab-2.name",
+    "aberrationOf": "flounder",
+    "replacementFile": "megapiggy.fishimagereplacer.flounder-ab-2.png"
+  },
+  {
+    "itemId": "frilled-shark",
+    "localizedNameKey": "Items:item.frilled-shark.name",
+    "replacementFile": "megapiggy.fishimagereplacer.frilled-shark.png"
+  },
+  {
+    "itemId": "frilled-shark-ab-1",
+    "localizedNameKey": "Items:item.frilled-shark-ab-1.name",
+    "aberrationOf": "frilled-shark",
+    "replacementFile": "megapiggy.fishimagereplacer.frilled-shark-ab-1.png"
+  },
+  {
+    "itemId": "gar",
+    "localizedNameKey": "Items:item.gar.name",
+    "replacementFile": "megapiggy.fishimagereplacer.gar.png"
+  },
+  {
+    "itemId": "gar-ab-1",
+    "localizedNameKey": "Items:item.gar-ab-1.name",
+    "aberrationOf": "gar",
+    "replacementFile": "megapiggy.fishimagereplacer.gar-ab-1.png"
+  },
+  {
+    "itemId": "gar-ab-2",
+    "localizedNameKey": "Items:item.gar-ab-2.name",
+    "aberrationOf": "gar",
+    "replacementFile": "megapiggy.fishimagereplacer.gar-ab-2.png"
+  },
+  {
+    "itemId": "ghost-shark",
+    "localizedNameKey": "Items:item.ghost-shark.name",
+    "replacementFile": "megapiggy.fishimagereplacer.ghost-shark.png"
+  },
+  {
+    "itemId": "ghost-shark-ab-1",
+    "localizedNameKey": "Items:item.ghost-shark-ab-1.name",
+    "aberrationOf": "ghost-shark",
+    "replacementFile": "megapiggy.fishimagereplacer.ghost-shark-ab-1.png"
+  },
+  {
+    "itemId": "giant-amphipod",
+    "localizedNameKey": "Items:item.giant-amphipod.name",
+    "replacementFile": "megapiggy.fishimagereplacer.giant-amphipod.png"
+  },
+  {
+    "itemId": "giant-amphipod-ab-1",
+    "localizedNameKey": "Items:item.giant-amphipod-ab-1.name",
+    "aberrationOf": "giant-amphipod",
+    "replacementFile": "megapiggy.fishimagereplacer.giant-amphipod-ab-1.png"
+  },
+  {
+    "itemId": "giant-dragonfish",
+    "localizedNameKey": "Items:item.giant-dragonfish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.giant-dragonfish.png"
+  },
+  {
+    "itemId": "giant-dragonfish-ab-1",
+    "localizedNameKey": "Items:item.giant-dragonfish-ab-1.name",
+    "aberrationOf": "giant-dragonfish",
+    "replacementFile": "megapiggy.fishimagereplacer.giant-dragonfish-ab-1.png"
+  },
+  {
+    "itemId": "giant-mud-crab",
+    "localizedNameKey": "Items:item.giant-mud-crab.name",
+    "replacementFile": "megapiggy.fishimagereplacer.giant-mud-crab.png"
+  },
+  {
+    "itemId": "giant-mud-crab-ab-1",
+    "localizedNameKey": "Items:item.giant-mud-crab-ab-1.name",
+    "aberrationOf": "giant-mud-crab",
+    "replacementFile": "megapiggy.fishimagereplacer.giant-mud-crab-ab-1.png"
+  },
+  {
+    "itemId": "glowing-octopus",
+    "localizedNameKey": "Items:item.glowing-octopus.name",
+    "replacementFile": "megapiggy.fishimagereplacer.glowing-octopus.png"
+  },
+  {
+    "itemId": "glowing-octopus-ab-1",
+    "localizedNameKey": "Items:item.glowing-octopus-ab-1.name",
+    "aberrationOf": "glowing-octopus",
+    "replacementFile": "megapiggy.fishimagereplacer.glowing-octopus-ab-1.png"
+  },
+  {
+    "itemId": "goblin-shark",
+    "localizedNameKey": "Items:item.goblin-shark.name",
+    "replacementFile": "megapiggy.fishimagereplacer.goblin-shark.png"
+  },
+  {
+    "itemId": "goblin-shark-ab-1",
+    "localizedNameKey": "Items:item.goblin-shark-ab-1.name",
+    "aberrationOf": "goblin-shark",
+    "replacementFile": "megapiggy.fishimagereplacer.goblin-shark-ab-1.png"
+  },
+  {
+    "itemId": "goliath-tigerfish",
+    "localizedNameKey": "Items:item.goliath-tigerfish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.goliath-tigerfish.png"
+  },
+  {
+    "itemId": "goliath-tigerfish-ab-1",
+    "localizedNameKey": "Items:item.goliath-tigerfish-ab-1.name",
+    "aberrationOf": "goliath-tigerfish",
+    "replacementFile": "megapiggy.fishimagereplacer.goliath-tigerfish-ab-1.png"
+  },
+  {
+    "itemId": "grey-mullet",
+    "localizedNameKey": "Items:item.grey-mullet.name",
+    "replacementFile": "megapiggy.fishimagereplacer.grey-mullet.png"
+  },
+  {
+    "itemId": "grey-mullet-ab-1",
+    "localizedNameKey": "Items:item.grey-mullet-ab-1.name",
+    "aberrationOf": "grey-mullet",
+    "replacementFile": "megapiggy.fishimagereplacer.grey-mullet-ab-1.png"
+  },
+  {
+    "itemId": "grey-mullet-ab-2",
+    "localizedNameKey": "Items:item.grey-mullet-ab-2.name",
+    "aberrationOf": "grey-mullet",
+    "replacementFile": "megapiggy.fishimagereplacer.grey-mullet-ab-2.png"
+  },
+  {
+    "itemId": "gulper-eel",
+    "localizedNameKey": "Items:item.gulper-eel.name",
+    "replacementFile": "megapiggy.fishimagereplacer.gulper-eel.png"
+  },
+  {
+    "itemId": "gulper-eel-ab-1",
+    "localizedNameKey": "Items:item.gulper-eel-ab-1.name",
+    "aberrationOf": "gulper-eel",
+    "replacementFile": "megapiggy.fishimagereplacer.gulper-eel-ab-1.png"
+  },
+  {
+    "itemId": "hammerhead-shark",
+    "localizedNameKey": "Items:item.hammerhead-shark.name",
+    "replacementFile": "megapiggy.fishimagereplacer.hammerhead-shark.png"
+  },
+  {
+    "itemId": "hammerhead-shark-ab-1",
+    "localizedNameKey": "Items:item.hammerhead-shark-ab-1.name",
+    "aberrationOf": "hammerhead-shark",
+    "replacementFile": "megapiggy.fishimagereplacer.hammerhead-shark-ab-1.png"
+  },
+  {
+    "itemId": "horseshoe-crab",
+    "localizedNameKey": "Items:item.horseshoe-crab.name",
+    "replacementFile": "megapiggy.fishimagereplacer.horseshoe-crab.png"
+  },
+  {
+    "itemId": "horseshoe-crab-ab-1",
+    "localizedNameKey": "Items:item.horseshoe-crab-ab-1.name",
+    "aberrationOf": "horseshoe-crab",
+    "replacementFile": "megapiggy.fishimagereplacer.horseshoe-crab-ab-1.png"
+  },
+  {
+    "itemId": "icefish",
+    "localizedNameKey": "Items:item.icefish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.icefish.png"
+  },
+  {
+    "itemId": "icefish-ab-1",
+    "localizedNameKey": "Items:item.icefish-ab-1.name",
+    "aberrationOf": "icefish",
+    "replacementFile": "megapiggy.fishimagereplacer.icefish-ab-1.png"
+  },
+  {
+    "itemId": "icefish-ab-2",
+    "localizedNameKey": "Items:item.icefish-ab-2.name",
+    "aberrationOf": "icefish",
+    "replacementFile": "megapiggy.fishimagereplacer.icefish-ab-2.png"
+  },
+  {
+    "itemId": "icefish-ab-3",
+    "localizedNameKey": "Items:item.icefish-ab-3.name",
+    "aberrationOf": "icefish",
+    "replacementFile": "megapiggy.fishimagereplacer.icefish-ab-3.png"
+  },
+  {
+    "itemId": "kerygmachela",
+    "localizedNameKey": "Items:item.kerygmachela.name",
+    "replacementFile": "megapiggy.fishimagereplacer.kerygmachela.png"
+  },
+  {
+    "itemId": "kerygmachela-ab-1",
+    "localizedNameKey": "Items:item.kerygmachela-ab-1.name",
+    "aberrationOf": "kerygmachela",
+    "replacementFile": "megapiggy.fishimagereplacer.kerygmachela-ab-1.png"
+  },
+  {
+    "itemId": "king-crab",
+    "localizedNameKey": "Items:item.king-crab.name",
+    "replacementFile": "megapiggy.fishimagereplacer.king-crab.png"
+  },
+  {
+    "itemId": "king-crab-ab-1",
+    "localizedNameKey": "Items:item.king-crab-ab-1.name",
+    "aberrationOf": "king-crab",
+    "replacementFile": "megapiggy.fishimagereplacer.king-crab-ab-1.png"
+  },
+  {
+    "itemId": "lancetfish",
+    "localizedNameKey": "Items:item.lancetfish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.lancetfish.png"
+  },
+  {
+    "itemId": "lancetfish-ab-1",
+    "localizedNameKey": "Items:item.lancetfish-ab-1.name",
+    "aberrationOf": "lancetfish",
+    "replacementFile": "megapiggy.fishimagereplacer.lancetfish-ab-1.png"
+  },
+  {
+    "itemId": "lizardfish",
+    "localizedNameKey": "Items:item.lizardfish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.lizardfish.png"
+  },
+  {
+    "itemId": "lizardfish-ab-1",
+    "localizedNameKey": "Items:item.lizardfish-ab-1.name",
+    "aberrationOf": "lizardfish",
+    "replacementFile": "megapiggy.fishimagereplacer.lizardfish-ab-1.png"
+  },
+  {
+    "itemId": "longfin-eel",
+    "localizedNameKey": "Items:item.longfin-eel.name",
+    "replacementFile": "megapiggy.fishimagereplacer.longfin-eel.png"
+  },
+  {
+    "itemId": "longfin-eel-ab-1",
+    "localizedNameKey": "Items:item.longfin-eel-ab-1.name",
+    "aberrationOf": "longfin-eel",
+    "replacementFile": "megapiggy.fishimagereplacer.longfin-eel-ab-1.png"
+  },
+  {
+    "itemId": "mackerel",
+    "localizedNameKey": "Items:item.mackerel.name",
+    "replacementFile": "megapiggy.fishimagereplacer.mackerel.png"
+  },
+  {
+    "itemId": "mackerel-ab-1",
+    "localizedNameKey": "Items:item.mackerel-ab-1.name",
+    "aberrationOf": "mackerel",
+    "replacementFile": "megapiggy.fishimagereplacer.mackerel-ab-1.png"
+  },
+  {
+    "itemId": "mackerel-ab-2",
+    "localizedNameKey": "Items:item.mackerel-ab-2.name",
+    "aberrationOf": "mackerel",
+    "replacementFile": "megapiggy.fishimagereplacer.mackerel-ab-2.png"
+  },
+  {
+    "itemId": "mackerel-ab-3",
+    "localizedNameKey": "Items:item.mackerel-ab-3.name",
+    "aberrationOf": "mackerel",
+    "replacementFile": "megapiggy.fishimagereplacer.mackerel-ab-3.png"
+  },
+  {
+    "itemId": "mahi-mahi",
+    "localizedNameKey": "Items:item.mahi-mahi.name",
+    "replacementFile": "megapiggy.fishimagereplacer.mahi-mahi.png"
+  },
+  {
+    "itemId": "mahi-mahi-ab-1",
+    "localizedNameKey": "Items:item.mahi-mahi-ab-1.name",
+    "aberrationOf": "mahi-mahi",
+    "replacementFile": "megapiggy.fishimagereplacer.mahi-mahi-ab-1.png"
+  },
+  {
+    "itemId": "moonfish",
+    "localizedNameKey": "Items:item.moonfish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.moonfish.png"
+  },
+  {
+    "itemId": "moonfish-ab-1",
+    "localizedNameKey": "Items:item.moonfish-ab-1.name",
+    "aberrationOf": "moonfish",
+    "replacementFile": "megapiggy.fishimagereplacer.moonfish-ab-1.png"
+  },
+  {
+    "itemId": "moonfish-ab-2",
+    "localizedNameKey": "Items:item.moonfish-ab-2.name",
+    "aberrationOf": "moonfish",
+    "replacementFile": "megapiggy.fishimagereplacer.moonfish-ab-2.png"
+  },
+  {
+    "itemId": "nautilus",
+    "localizedNameKey": "Items:item.nautilus.name",
+    "replacementFile": "megapiggy.fishimagereplacer.nautilus.png"
+  },
+  {
+    "itemId": "nautilus-ab-1",
+    "localizedNameKey": "Items:item.nautilus-ab-1.name",
+    "aberrationOf": "nautilus",
+    "replacementFile": "megapiggy.fishimagereplacer.nautilus-ab-1.png"
+  },
+  {
+    "itemId": "nipponites",
+    "localizedNameKey": "Items:item.nipponites.name",
+    "replacementFile": "megapiggy.fishimagereplacer.nipponites.png"
+  },
+  {
+    "itemId": "nipponites-ab-1",
+    "localizedNameKey": "Items:item.nipponites-ab-1.name",
+    "aberrationOf": "nipponites",
+    "replacementFile": "megapiggy.fishimagereplacer.nipponites-ab-1.png"
+  },
+  {
+    "itemId": "oarfish",
+    "localizedNameKey": "Items:item.oarfish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.oarfish.png"
+  },
+  {
+    "itemId": "oarfish-ab-1",
+    "localizedNameKey": "Items:item.oarfish-ab-1.name",
+    "aberrationOf": "oarfish",
+    "replacementFile": "megapiggy.fishimagereplacer.oarfish-ab-1.png"
+  },
+  {
+    "itemId": "oceanic-perch",
+    "localizedNameKey": "Items:item.oceanic-perch.name",
+    "replacementFile": "megapiggy.fishimagereplacer.oceanic-perch.png"
+  },
+  {
+    "itemId": "oceanic-perch-ab-1",
+    "localizedNameKey": "Items:item.oceanic-perch-ab-1.name",
+    "aberrationOf": "oceanic-perch",
+    "replacementFile": "megapiggy.fishimagereplacer.oceanic-perch-ab-1.png"
+  },
+  {
+    "itemId": "opabinia",
+    "localizedNameKey": "Items:item.opabinia.name",
+    "replacementFile": "megapiggy.fishimagereplacer.opabinia.png"
+  },
+  {
+    "itemId": "opabinia-ab-1",
+    "localizedNameKey": "Items:item.opabinia-ab-1.name",
+    "aberrationOf": "opabinia",
+    "replacementFile": "megapiggy.fishimagereplacer.opabinia-ab-1.png"
+  },
+  {
+    "itemId": "osteostracan",
+    "localizedNameKey": "Items:item.osteostracan.name",
+    "replacementFile": "megapiggy.fishimagereplacer.osteostracan.png"
+  },
+  {
+    "itemId": "osteostracan-ab-1",
+    "localizedNameKey": "Items:item.osteostracan-ab-1.name",
+    "aberrationOf": "osteostracan",
+    "replacementFile": "megapiggy.fishimagereplacer.osteostracan-ab-1.png"
+  },
+  {
+    "itemId": "paddlefish",
+    "localizedNameKey": "Items:item.paddlefish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.paddlefish.png"
+  },
+  {
+    "itemId": "paddlefish-ab-1",
+    "localizedNameKey": "Items:item.paddlefish-ab-1.name",
+    "aberrationOf": "paddlefish",
+    "replacementFile": "megapiggy.fishimagereplacer.paddlefish-ab-1.png"
+  },
+  {
+    "itemId": "pale-skate",
+    "localizedNameKey": "Items:item.pale-skate.name",
+    "replacementFile": "megapiggy.fishimagereplacer.pale-skate.png"
+  },
+  {
+    "itemId": "pale-skate-ab-1",
+    "localizedNameKey": "Items:item.pale-skate-ab-1.name",
+    "aberrationOf": "pale-skate",
+    "replacementFile": "megapiggy.fishimagereplacer.pale-skate-ab-1.png"
+  },
+  {
+    "itemId": "rattail",
+    "localizedNameKey": "Items:item.rattail.name",
+    "replacementFile": "megapiggy.fishimagereplacer.rattail.png"
+  },
+  {
+    "itemId": "rattail-ab-1",
+    "localizedNameKey": "Items:item.rattail-ab-1.name",
+    "aberrationOf": "rattail",
+    "replacementFile": "megapiggy.fishimagereplacer.rattail-ab-1.png"
+  },
+  {
+    "itemId": "red-snapper",
+    "localizedNameKey": "Items:item.red-snapper.name",
+    "replacementFile": "megapiggy.fishimagereplacer.red-snapper.png"
+  },
+  {
+    "itemId": "red-snapper-ab-1",
+    "localizedNameKey": "Items:item.red-snapper-ab-1.name",
+    "aberrationOf": "red-snapper",
+    "replacementFile": "megapiggy.fishimagereplacer.red-snapper-ab-1.png"
+  },
+  {
+    "itemId": "red-snapper-ab-2",
+    "localizedNameKey": "Items:item.red-snapper-ab-2.name",
+    "aberrationOf": "red-snapper",
+    "replacementFile": "megapiggy.fishimagereplacer.red-snapper-ab-2.png"
+  },
+  {
+    "itemId": "rock-crab",
+    "localizedNameKey": "Items:item.rock-crab.name",
+    "replacementFile": "megapiggy.fishimagereplacer.rock-crab.png"
+  },
+  {
+    "itemId": "rock-crab-ab-1",
+    "localizedNameKey": "Items:item.rock-crab-ab-1.name",
+    "aberrationOf": "rock-crab",
+    "replacementFile": "megapiggy.fishimagereplacer.rock-crab-ab-1.png"
+  },
+  {
+    "itemId": "sailfish",
+    "localizedNameKey": "Items:item.sailfish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.sailfish.png"
+  },
+  {
+    "itemId": "sailfish-ab-1",
+    "localizedNameKey": "Items:item.sailfish-ab-1.name",
+    "aberrationOf": "sailfish",
+    "replacementFile": "megapiggy.fishimagereplacer.sailfish-ab-1.png"
+  },
+  {
+    "itemId": "sailfish-ab-2",
+    "localizedNameKey": "Items:item.sailfish-ab-2.name",
+    "aberrationOf": "sailfish",
+    "replacementFile": "megapiggy.fishimagereplacer.sailfish-ab-2.png"
+  },
+  {
+    "itemId": "sawfish",
+    "localizedNameKey": "Items:item.sawfish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.sawfish.png"
+  },
+  {
+    "itemId": "sawfish-ab-1",
+    "localizedNameKey": "Items:item.sawfish-ab-1.name",
+    "aberrationOf": "sawfish",
+    "replacementFile": "megapiggy.fishimagereplacer.sawfish-ab-1.png"
+  },
+  {
+    "itemId": "scarlet-prawn",
+    "localizedNameKey": "Items:item.scarlet-prawn.name",
+    "replacementFile": "megapiggy.fishimagereplacer.scarlet-prawn.png"
+  },
+  {
+    "itemId": "scarlet-prawn-ab-1",
+    "localizedNameKey": "Items:item.scarlet-prawn-ab-1.name",
+    "aberrationOf": "scarlet-prawn",
+    "replacementFile": "megapiggy.fishimagereplacer.scarlet-prawn-ab-1.png"
+  },
+  {
+    "itemId": "sea-cucumber",
+    "localizedNameKey": "Items:item.sea-cucumber.name",
+    "replacementFile": "megapiggy.fishimagereplacer.sea-cucumber.png"
+  },
+  {
+    "itemId": "sea-cucumber-ab-1",
+    "localizedNameKey": "Items:item.sea-cucumber-ab-1.name",
+    "aberrationOf": "sea-cucumber",
+    "replacementFile": "megapiggy.fishimagereplacer.sea-cucumber-ab-1.png"
+  },
+  {
+    "itemId": "searobin",
+    "localizedNameKey": "Items:item.searobin.name",
+    "replacementFile": "megapiggy.fishimagereplacer.searobin.png"
+  },
+  {
+    "itemId": "searobin-ab-1",
+    "localizedNameKey": "Items:item.searobin-ab-1.name",
+    "aberrationOf": "searobin",
+    "replacementFile": "megapiggy.fishimagereplacer.searobin-ab-1.png"
+  },
+  {
+    "itemId": "sea-scorpion",
+    "localizedNameKey": "Items:item.sea-scorpion.name",
+    "replacementFile": "megapiggy.fishimagereplacer.sea-scorpion.png"
+  },
+  {
+    "itemId": "sea-scorpion-ab-1",
+    "localizedNameKey": "Items:item.sea-scorpion-ab-1.name",
+    "aberrationOf": "sea-scorpion",
+    "replacementFile": "megapiggy.fishimagereplacer.sea-scorpion-ab-1.png"
+  },
+  {
+    "itemId": "sea-slug",
+    "localizedNameKey": "Items:item.sea-slug.name",
+    "replacementFile": "megapiggy.fishimagereplacer.sea-slug.png"
+  },
+  {
+    "itemId": "sea-slug-ab-1",
+    "localizedNameKey": "Items:item.sea-slug-ab-1.name",
+    "aberrationOf": "sea-slug",
+    "replacementFile": "megapiggy.fishimagereplacer.sea-slug-ab-1.png"
+  },
+  {
+    "itemId": "sea-stars",
+    "localizedNameKey": "Items:item.sea-stars.name",
+    "replacementFile": "megapiggy.fishimagereplacer.sea-stars.png"
+  },
+  {
+    "itemId": "sea-stars-ab-1",
+    "localizedNameKey": "Items:item.sea-stars-ab-1.name",
+    "aberrationOf": "sea-stars",
+    "replacementFile": "megapiggy.fishimagereplacer.sea-stars-ab-1.png"
+  },
+  {
+    "itemId": "sergeant-fish",
+    "localizedNameKey": "Items:item.sergeant-fish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.sergeant-fish.png"
+  },
+  {
+    "itemId": "sergeant-fish-ab-1",
+    "localizedNameKey": "Items:item.sergeant-fish-ab-1.name",
+    "aberrationOf": "sergeant-fish",
+    "replacementFile": "megapiggy.fishimagereplacer.sergeant-fish-ab-1.png"
+  },
+  {
+    "itemId": "sleeper-shark",
+    "localizedNameKey": "Items:item.sleeper-shark.name",
+    "replacementFile": "megapiggy.fishimagereplacer.sleeper-shark.png"
+  },
+  {
+    "itemId": "sleeper-shark-ab-1",
+    "localizedNameKey": "Items:item.sleeper-shark-ab-1.name",
+    "aberrationOf": "sleeper-shark",
+    "replacementFile": "megapiggy.fishimagereplacer.sleeper-shark-ab-1.png"
+  },
+  {
+    "itemId": "snailfish",
+    "localizedNameKey": "Items:item.snailfish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.snailfish.png"
+  },
+  {
+    "itemId": "snailfish-ab-1",
+    "localizedNameKey": "Items:item.snailfish-ab-1.name",
+    "aberrationOf": "snailfish",
+    "replacementFile": "megapiggy.fishimagereplacer.snailfish-ab-1.png"
+  },
+  {
+    "itemId": "snailfish-ab-2",
+    "localizedNameKey": "Items:item.snailfish-ab-2.name",
+    "aberrationOf": "snailfish",
+    "replacementFile": "megapiggy.fishimagereplacer.snailfish-ab-2.png"
+  },
+  {
+    "itemId": "snake-mackerel",
+    "localizedNameKey": "Items:item.snake-mackerel.name",
+    "replacementFile": "megapiggy.fishimagereplacer.snake-mackerel.png"
+  },
+  {
+    "itemId": "snake-mackerel-ab-1",
+    "localizedNameKey": "Items:item.snake-mackerel-ab-1.name",
+    "aberrationOf": "snake-mackerel",
+    "replacementFile": "megapiggy.fishimagereplacer.snake-mackerel-ab-1.png"
+  },
+  {
+    "itemId": "snake-mackerel-ab-2",
+    "localizedNameKey": "Items:item.snake-mackerel-ab-2.name",
+    "aberrationOf": "snake-mackerel",
+    "replacementFile": "megapiggy.fishimagereplacer.snake-mackerel-ab-2.png"
+  },
+  {
+    "itemId": "sollasina",
+    "localizedNameKey": "Items:item.sollasina.name",
+    "replacementFile": "megapiggy.fishimagereplacer.sollasina.png"
+  },
+  {
+    "itemId": "sollasina-ab-1",
+    "localizedNameKey": "Items:item.sollasina-ab-1.name",
+    "aberrationOf": "sollasina",
+    "replacementFile": "megapiggy.fishimagereplacer.sollasina-ab-1.png"
+  },
+  {
+    "itemId": "spider-crab",
+    "localizedNameKey": "Items:item.spider-crab.name",
+    "replacementFile": "megapiggy.fishimagereplacer.spider-crab.png"
+  },
+  {
+    "itemId": "spider-crab-ab-1",
+    "localizedNameKey": "Items:item.spider-crab-ab-1.name",
+    "aberrationOf": "spider-crab",
+    "replacementFile": "megapiggy.fishimagereplacer.spider-crab-ab-1.png"
+  },
+  {
+    "itemId": "spiny-lobster",
+    "localizedNameKey": "Items:item.spiny-lobster.name",
+    "replacementFile": "megapiggy.fishimagereplacer.spiny-lobster.png"
+  },
+  {
+    "itemId": "spiny-lobster-ab-1",
+    "localizedNameKey": "Items:item.spiny-lobster-ab-1.name",
+    "aberrationOf": "spiny-lobster",
+    "replacementFile": "megapiggy.fishimagereplacer.spiny-lobster-ab-1.png"
+  },
+  {
+    "itemId": "squat-lobster",
+    "localizedNameKey": "Items:item.squat-lobster.name",
+    "replacementFile": "megapiggy.fishimagereplacer.squat-lobster.png"
+  },
+  {
+    "itemId": "squat-lobster-ab-1",
+    "localizedNameKey": "Items:item.squat-lobster-ab-1.name",
+    "aberrationOf": "squat-lobster",
+    "replacementFile": "megapiggy.fishimagereplacer.squat-lobster-ab-1.png"
+  },
+  {
+    "itemId": "squid",
+    "localizedNameKey": "Items:item.squid.name",
+    "replacementFile": "megapiggy.fishimagereplacer.squid.png"
+  },
+  {
+    "itemId": "squid-ab-1",
+    "localizedNameKey": "Items:item.squid-ab-1.name",
+    "aberrationOf": "squid",
+    "replacementFile": "megapiggy.fishimagereplacer.squid-ab-1.png"
+  },
+  {
+    "itemId": "squid-ab-2",
+    "localizedNameKey": "Items:item.squid-ab-2.name",
+    "aberrationOf": "squid",
+    "replacementFile": "megapiggy.fishimagereplacer.squid-ab-2.png"
+  },
+  {
+    "itemId": "stargazer",
+    "localizedNameKey": "Items:item.stargazer.name",
+    "replacementFile": "megapiggy.fishimagereplacer.stargazer.png"
+  },
+  {
+    "itemId": "stargazer-ab-1",
+    "localizedNameKey": "Items:item.stargazer-ab-1.name",
+    "aberrationOf": "stargazer",
+    "replacementFile": "megapiggy.fishimagereplacer.stargazer-ab-1.png"
+  },
+  {
+    "itemId": "stingray",
+    "localizedNameKey": "Items:item.stingray.name",
+    "replacementFile": "megapiggy.fishimagereplacer.stingray.png"
+  },
+  {
+    "itemId": "stingray-ab-1",
+    "localizedNameKey": "Items:item.stingray-ab-1.name",
+    "aberrationOf": "stingray",
+    "replacementFile": "megapiggy.fishimagereplacer.stingray-ab-1.png"
+  },
+  {
+    "itemId": "stonefish",
+    "localizedNameKey": "Items:item.stonefish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.stonefish.png"
+  },
+  {
+    "itemId": "stonefish-ab-1",
+    "localizedNameKey": "Items:item.stonefish-ab-1.name",
+    "aberrationOf": "stonefish",
+    "replacementFile": "megapiggy.fishimagereplacer.stonefish-ab-1.png"
+  },
+  {
+    "itemId": "stonefish-ab-2",
+    "localizedNameKey": "Items:item.stonefish-ab-2.name",
+    "aberrationOf": "stonefish",
+    "replacementFile": "megapiggy.fishimagereplacer.stonefish-ab-2.png"
+  },
+  {
+    "itemId": "stoplight-loosejaw",
+    "localizedNameKey": "Items:item.loosejaw.name",
+    "replacementFile": "megapiggy.fishimagereplacer.stoplight-loosejaw.png"
+  },
+  {
+    "itemId": "stoplight-loosejaw-ab-1",
+    "localizedNameKey": "Items:item.loosejaw-ab-1.name",
+    "aberrationOf": "stoplight-loosejaw",
+    "replacementFile": "megapiggy.fishimagereplacer.stoplight-loosejaw-ab-1.png"
+  },
+  {
+    "itemId": "sturgeon",
+    "localizedNameKey": "Items:item.sturgeon.name",
+    "replacementFile": "megapiggy.fishimagereplacer.sturgeon.png"
+  },
+  {
+    "itemId": "sturgeon-ab-1",
+    "localizedNameKey": "Items:item.sturgeon-ab-1.name",
+    "aberrationOf": "sturgeon",
+    "replacementFile": "megapiggy.fishimagereplacer.sturgeon-ab-1.png"
+  },
+  {
+    "itemId": "sunfish",
+    "localizedNameKey": "Items:item.sunfish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.sunfish.png"
+  },
+  {
+    "itemId": "sunfish-ab-1",
+    "localizedNameKey": "Items:item.sunfish-ab-1.name",
+    "aberrationOf": "sunfish",
+    "replacementFile": "megapiggy.fishimagereplacer.sunfish-ab-1.png"
+  },
+  {
+    "itemId": "sunfish-ab-2",
+    "localizedNameKey": "Items:item.sunfish-ab-2.name",
+    "aberrationOf": "sunfish",
+    "replacementFile": "megapiggy.fishimagereplacer.sunfish-ab-2.png"
+  },
+  {
+    "itemId": "swordfish",
+    "localizedNameKey": "Items:item.swordfish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.swordfish.png"
+  },
+  {
+    "itemId": "swordfish-ab-1",
+    "localizedNameKey": "Items:item.swordfish-ab-1.name",
+    "aberrationOf": "swordfish",
+    "replacementFile": "megapiggy.fishimagereplacer.swordfish-ab-1.png"
+  },
+  {
+    "itemId": "tarpon",
+    "localizedNameKey": "Items:item.tarpon.name",
+    "replacementFile": "megapiggy.fishimagereplacer.tarpon.png"
+  },
+  {
+    "itemId": "tarpon-ab-1",
+    "localizedNameKey": "Items:item.tarpon-ab-1.name",
+    "aberrationOf": "tarpon",
+    "replacementFile": "megapiggy.fishimagereplacer.tarpon-ab-1.png"
+  },
+  {
+    "itemId": "tiger-mackerel",
+    "localizedNameKey": "Items:item.tiger-mackerel.name",
+    "replacementFile": "megapiggy.fishimagereplacer.tiger-mackerel.png"
+  },
+  {
+    "itemId": "tiger-mackerel-ab-1",
+    "localizedNameKey": "Items:item.tiger-mackerel-ab-1.name",
+    "aberrationOf": "tiger-mackerel",
+    "replacementFile": "megapiggy.fishimagereplacer.tiger-mackerel-ab-1.png"
+  },
+  {
+    "itemId": "tiger-mackerel-ab-2",
+    "localizedNameKey": "Items:item.tiger-mackerel-ab-2.name",
+    "aberrationOf": "tiger-mackerel",
+    "replacementFile": "megapiggy.fishimagereplacer.tiger-mackerel-ab-2.png"
+  },
+  {
+    "itemId": "toothfish",
+    "localizedNameKey": "Items:item.toothfish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.toothfish.png"
+  },
+  {
+    "itemId": "toothfish-ab-1",
+    "localizedNameKey": "Items:item.toothfish-ab-1.name",
+    "aberrationOf": "toothfish",
+    "replacementFile": "megapiggy.fishimagereplacer.toothfish-ab-1.png"
+  },
+  {
+    "itemId": "trilobite",
+    "localizedNameKey": "Items:item.trilobite.name",
+    "replacementFile": "megapiggy.fishimagereplacer.trilobite.png"
+  },
+  {
+    "itemId": "trilobite-ab-1",
+    "localizedNameKey": "Items:item.trilobite-ab-1.name",
+    "aberrationOf": "trilobite",
+    "replacementFile": "megapiggy.fishimagereplacer.trilobite-ab-1.png"
+  },
+  {
+    "itemId": "tripod-spiderfish",
+    "localizedNameKey": "Items:item.tripod-spiderfish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.tripod-spiderfish.png"
+  },
+  {
+    "itemId": "tripod-spiderfish-ab-1",
+    "localizedNameKey": "Items:item.tripod-spiderfish-ab-1.name",
+    "aberrationOf": "tripod-spiderfish",
+    "replacementFile": "megapiggy.fishimagereplacer.tripod-spiderfish-ab-1.png"
+  },
+  {
+    "itemId": "tullimonstrum",
+    "localizedNameKey": "Items:item.tullimonstrum.name",
+    "replacementFile": "megapiggy.fishimagereplacer.tullimonstrum.png"
+  },
+  {
+    "itemId": "tullimonstrum-ab-1",
+    "localizedNameKey": "Items:item.tullimonstrum-ab-1.name",
+    "aberrationOf": "tullimonstrum",
+    "replacementFile": "megapiggy.fishimagereplacer.tullimonstrum-ab-1.png"
+  },
+  {
+    "itemId": "vetulicolia",
+    "localizedNameKey": "Items:item.vetulicolia.name",
+    "replacementFile": "megapiggy.fishimagereplacer.vetulicolia.png"
+  },
+  {
+    "itemId": "vetulicolia-ab-1",
+    "localizedNameKey": "Items:item.vetulicolia-ab-1.name",
+    "aberrationOf": "vetulicolia",
+    "replacementFile": "megapiggy.fishimagereplacer.vetulicolia-ab-1.png"
+  },
+  {
+    "itemId": "viperfish",
+    "localizedNameKey": "Items:item.viperfish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.viperfish.png"
+  },
+  {
+    "itemId": "viperfish-ab-1",
+    "localizedNameKey": "Items:item.viperfish-ab-1.name",
+    "aberrationOf": "viperfish",
+    "replacementFile": "megapiggy.fishimagereplacer.viperfish-ab-1.png"
+  },
+  {
+    "itemId": "viperfish-ab-2",
+    "localizedNameKey": "Items:item.viperfish-ab-2.name",
+    "aberrationOf": "viperfish",
+    "replacementFile": "megapiggy.fishimagereplacer.viperfish-ab-2.png"
+  },
+  {
+    "itemId": "volcano-snail",
+    "localizedNameKey": "Items:item.volcano-snail.name",
+    "replacementFile": "megapiggy.fishimagereplacer.volcano-snail.png"
+  },
+  {
+    "itemId": "volcano-snail-ab-1",
+    "localizedNameKey": "Items:item.volcano-snail-ab-1.name",
+    "aberrationOf": "volcano-snail",
+    "replacementFile": "megapiggy.fishimagereplacer.volcano-snail-ab-1.png"
+  },
+  {
+    "itemId": "wolffish",
+    "localizedNameKey": "Items:item.wolffish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.wolffish.png"
+  },
+  {
+    "itemId": "wolffish-ab-1",
+    "localizedNameKey": "Items:item.wolffish-ab-1.name",
+    "aberrationOf": "wolffish",
+    "replacementFile": "megapiggy.fishimagereplacer.wolffish-ab-1.png"
+  },
+  {
+    "itemId": "wreckfish",
+    "localizedNameKey": "Items:item.wreckfish.name",
+    "replacementFile": "megapiggy.fishimagereplacer.wreckfish.png"
+  },
+  {
+    "itemId": "wreckfish-ab-1",
+    "localizedNameKey": "Items:item.wreckfish-ab-1.name",
+    "aberrationOf": "wreckfish",
+    "replacementFile": "megapiggy.fishimagereplacer.wreckfish-ab-1.png"
+  },
+  {
+    "itemId": "wreckfish-ab-2",
+    "localizedNameKey": "Items:item.wreckfish-ab-2.name",
+    "aberrationOf": "wreckfish",
+    "replacementFile": "megapiggy.fishimagereplacer.wreckfish-ab-2.png"
+  },
+  {
+    "itemId": "xiphactinus",
+    "localizedNameKey": "Items:item.xiphactinus.name",
+    "replacementFile": "megapiggy.fishimagereplacer.xiphactinus.png"
+  },
+  {
+    "itemId": "xiphactinus-ab-1",
+    "localizedNameKey": "Items:item.xiphactinus-ab-1.name",
+    "aberrationOf": "xiphactinus",
+    "replacementFile": "megapiggy.fishimagereplacer.xiphactinus-ab-1.png"
+  }
+]
